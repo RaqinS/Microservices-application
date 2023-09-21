@@ -142,13 +142,9 @@ components:
     
     OrderType:
       required:
-      - Delivery
-      - Take Out
+      - Delivery_option
       properties:
-        Delivery:
+        Delivery_option:
          type: string
          example: 'Delivery'
-        Take Out:
-          type: string
-          example: 'Take Out'
       type: object
