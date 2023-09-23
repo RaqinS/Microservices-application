@@ -1,51 +1,75 @@
 import connexion
 from connexion import NoContent
-import json
-from datetime import datetime
 
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from base import Base
+from OrderETA import OrderETA
+from Order_status import Order_status
+import datetime
+import requests
 
-
-EVENT_FILE = 'events.json'
-def logging(body, event_type):
-    event = {
-        "received_timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f"),
-        "request_data": json.dumps(body)
-    }
-    json_str = json.dumps(event)
-
-    
-    requests = []
-    try:
-        with open(EVENT_FILE, 'r') as fh:
-            requests = fh.readlines()
-    except FileNotFoundError:
-        pass
-
-
-    requests.insert(0, json_str + '\n')
-
-  
-    requests = requests[:10]
-
-    try:
-        with open(EVENT_FILE, 'w') as fh:
-            fh.writelines(requests)
-            return f"{event_type} has been reported"
-    except Exception as e:
-        return f"Error writing to file: {str(e)}"
+DB_ENGINE = create_engine("sqlite:///readings.sqlite")
+Base.metadata.bind = DB_ENGINE
+DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 def report_order_status(body):
-    return logging(body, "order status")
+    session = DB_SESSION()
 
+    orders = Order_status(body['OrderID'],
+                       body['CustomerAdress'],
+                       body['TimeStamp'],
+                       body['RestaurantID'],
+                       body['OrderType'],
+                       body['Customer_PhoneNumber']
+    )
+    session.add(orders)
+
+    session.commit()
+
+    mysql_endpoint = "http://localhost:8080"
+    
+    headers = {"Content-Type": "application/json"}
+    response = requests.post(mysql_endpoint, json=body, headers=headers)
+
+    
+    session.close()
+    
+
+    return NoContent, 201
 def reportETA(body):
-    return logging(body, "location information")
+
+    session = DB_SESSION()
+
+    ETA= OrderETA(body['OrderID'],
+                       body['CustomerLatitude'],
+                       body['CustomerLongitude'],
+                       body['DriverLatitude'],
+                       body['DriverLongitude'],
+                       body['RestaurantLatitude'],
+                       body['RestaurantLongitude'],
+                       body['Distance'],
+                       body['OrderType']
+    )
+    session.add(ETA)
+
+    session.commit()
+
+    mysql_endpoint = "http://localhost:8080"
+    
+    headers = {"Content-Type": "application/json"}
+    response = requests.post(mysql_endpoint, json=body, headers=headers)
+
+    session.close()
+    
+
+    return NoContent, 201
 
 
-app = connexion.FlaskApp(__name__,specification_dir='')
-app.add_api("openapi.yml")
-
-
+app = connexion.FlaskApp(__name__, specification_dir='')
+app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     app.run(port=8080)
+
 

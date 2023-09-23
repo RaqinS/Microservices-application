@@ -8,38 +8,69 @@ info:
 
 tags:
   - name: Customer_Order
-    description: any operation that involves or can affect the status or availability of an order
+    description: Any operation that involves or can affect the status or availability of an order
 
   - name: Proximity
-    description: any operation that deals with the location status of your order
+    description: Any operation that deals with the location status of your order
 
 paths:
   /order/status:
     post:
       tags:
         - Customer_Order
-      summary: reports a customer's order
+      summary: Reports a customer's order
       operationId: app.report_order_status
-      description: adds customer's order
+      description: Adds customer's order
       responses:
         '201':
-          description: 'order received!'
-
+          description: 'Order received!'
         '400':
-          description: 'invalid input'
+          description: 'Invalid input'
       requestBody:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/OrderReading'
+              type: object  # Define OrderReading as an object here
+              required:
+                - OrderID
+                - CustomerAdress
+                - TimeStamp
+                - OrderType
+                - RestaurantID
+                - Tip
+                - Customer_PhoneNumber
+              properties:
+                OrderID:
+                  type: string
+                  format: uuid
+                  example: '7834fhasd7fadsbi'
+                CustomerAdress:
+                  type: string
+                  example: '123 elm st'
+                TimeStamp:
+                  type: string
+                  format: date-time
+                  example: '2017-07-21T17:32:28Z'
+                OrderType:
+                  type: string  # Define OrderType as a string here
+                  example: 'Delivery'
+                RestaurantID:
+                  type: string
+                  example: 'cvasd8-d8caj-d87r'
+                Tip:
+                  type: integer
+                  example: 5
+                Customer_PhoneNumber:
+                  type: integer
+                  example: 7784235023
 
   /order/ETA:
     post:
       tags:
         - Proximity
-      summary: reports the expected time of arrival
+      summary: Reports the expected time of arrival
       operationId: app.reportETA
-      description: calculates the ETA for customer order
+      description: Calculates the ETA for customer order
       requestBody:
         content:
           application/json:
@@ -48,103 +79,48 @@ paths:
       responses:
         '201':
           description: ETA calculated successfully
-
         '400':
           description: Invalid input
-          
+
 components:
   schemas:
-    OrderReading:
+    OrderETA:
       required:
-      - OrderID
-      - CustomerAdress
-      - TimeStamp
-      - OrderType
-      - RestaurantID
-      - Tip
-      - Customer_PhoneNumber
+        - OrderID
+        - CustomerLatitude
+        - CustomerLongitude
+        - RestaurantLatitude
+        - RestaurantLongitude
+        - DriverLatitude
+        - DriverLongitude
+        - OrderType
+        - Distance
       properties:
         OrderID:
-          type: string
-          format: uuid
-          example: '7834fhasd-7fadsbi'
-        CustomerAdress:
-          type: string
-          example: '123 elm st'
-        TimeStamp:
-          type: string
-          format: date-time
-          example: '2017-07-21T17:32:28Z'
+          type: number
+          example: '732947243289'
+        CustomerLatitude:
+          type: number
+          example: 48.12345  # Example latitude coordinate
+        CustomerLongitude:
+          type: number
+          example: -123.67890  # Example longitude coordinate
+        RestaurantLatitude:
+          type: number
+          example: 49.54321
+        RestaurantLongitude:
+          type: number
+          example: -122.98765
+        DriverLatitude:
+          type: number
+          example: 34.56789
+        DriverLongitude:
+          type: number
+          example: -109.12345
         OrderType:
-          $ref: '#/components/schemas/OrderType'
-        RestaurantID:
-          type: string
-          example: 'cvasd8-d8caj-d87r'
-        Tip:
-          type: integer
-          example: 5
-        Customer_PhoneNumber:
-          type: integer
-          example: 7784235023
-      type: object
-          
-    OrderETA:
-      required: 
-      - customerLocation
-      - driverLocation
-      - restaurantLocation
-      - OrderType
-      - Distance
-      - OrderID
-      
-      properties:
-        customerLocation:
-          type: object
-          properties:
-            latitude:
-              type: integer
-              example: 48  # Example latitude coordinate
-            longitude:
-              type: integer
-              example: -123  # Example longitude coordinate
-  
-        driverLocation:
-          type: object
-          properties:
-            latitude:
-              type: integer
-              example: 34  
-            longitude:
-              type: integer
-              example: -109 
-   
-        restaurantLocation:
-          type: object
-          properties:
-            latitude:
-              type: integer
-              example: 65
-            longitude:
-              type: integer
-              example: -182
-        OrderType:
-          $ref: '#/components/schemas/OrderType'
+          type: string  # Define OrderType as a string here
+          example: 'Delivery'
         Distance:
           type: number
-          example: 5.7 #distance in kilometres
-        OrderID:
-          type: string
-          format: uuid
-          example: '7834fhasd-7fadsbi'
-      type: object
-
-
-    
-    OrderType:
-      required:
-      - Delivery_option
-      properties:
-        Delivery_option:
-         type: string
-         example: 'Delivery'
+          example: 5.7  # Distance in kilometers
       type: object
