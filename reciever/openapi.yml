@@ -31,28 +31,6 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/OrderStatus'
-    get:
-      tags:
-        - Customer_Order
-      summary: Retrieves a customer's order based on timestamp
-      operationId: app.get_order_status
-      parameters:
-        - name: timestamp
-          in: query
-          description: Retrieve orders added after this timestamp
-          schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
-      responses:
-        '200':
-          description: Successfully returned a list of orders
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/OrderStatus'
-        '400':
-          description: Invalid input
 
   /order/ETA:
     post:
@@ -69,30 +47,6 @@ paths:
       responses:
         '201':
           description: ETA calculated successfully
-        '400':
-          description: Invalid input
-    get:
-      tags:
-        - Proximity
-      summary: Retrieves the ETA details based on timestamp
-      operationId: app.get_order_ETA
-      parameters:
-        - name: timestamp
-          in: query
-          description: Retrieve locations added after this timestamp
-          required: false
-          schema:
-            type: string
-            format: date-time
-      responses:
-        '200':
-          description: Successfully returned a list of ETAs
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/OrderETA'
         '400':
           description: Invalid input
 components:

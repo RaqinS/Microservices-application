@@ -1,0 +1,208 @@
+2023-10-05 11:06:50,024 - basicLogger - INFO - Received event report_order_status request with a trace id of a800a976-9941-4f75-9b30-d74b71af3226
+2023-10-05 11:06:50,024 - basicLogger - INFO - Returned event report_order_status response (Id: a800a976-9941-4f75-9b30-d74b71af3226) with status 500
+2023-10-05 11:09:59,827 - basicLogger - INFO - Received event report_order_status request with a trace id of 8e569546-64dd-4ccb-887e-b060e852206d
+2023-10-05 11:09:59,829 - basicLogger - INFO - Returned event report_order_status response (Id: 8e569546-64dd-4ccb-887e-b060e852206d) with status 404
+2023-10-11 20:03:30,832 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-10-11 20:03:46,710 - basicLogger - INFO - Received event report_order_status request with a trace id of 0dbf78da-e39a-409e-b03b-68483faea132
+2023-10-11 20:03:46,710 - basicLogger - INFO - Returned event report_order_status response (Id: 0dbf78da-e39a-409e-b03b-68483faea132) with status 500
+2023-10-11 20:04:18,500 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-10-11 20:11:10,272 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-10-11 20:11:43,966 - basicLogger - INFO - Received event report_order_status request with a trace id of 74545713-fc4a-4911-b752-8e784b81abfb
+2023-10-11 20:11:43,966 - basicLogger - INFO - Returned event report_order_status response (Id: 74545713-fc4a-4911-b752-8e784b81abfb) with status 500
+2023-10-11 20:12:15,120 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-10-11 20:12:24,408 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-10-11 20:15:08,032 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-10-11 20:30:45,034 - basicLogger - INFO - Received event report_order_status request with a trace id of f1532f33-68cb-41de-b388-5bd20214c48c
+2023-10-11 20:30:45,042 - basicLogger - INFO - Returned event report_order_status response (Id: f1532f33-68cb-41de-b388-5bd20214c48c) with status 500
+2023-10-11 20:38:49,362 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-10-11 20:52:18,493 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-10-11 20:58:23,725 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-10-11 20:58:34,341 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-10-11 20:58:42,188 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-10-11 20:58:54,502 - basicLogger - INFO - Received event report_order_status request with a trace id of 6b3bcd7d-0a1d-4725-b6d5-b9ee7bd47a43
+2023-10-11 20:58:54,502 - basicLogger - INFO - Returned event report_order_status response (Id: 6b3bcd7d-0a1d-4725-b6d5-b9ee7bd47a43) with status 404
+2023-10-11 20:59:01,412 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-10-11 21:07:38,586 - basicLogger - INFO - Received event report_order_status request with a trace id of 2e537a9c-6fca-4d64-aa5b-d0dee9d046b4
+2023-10-11 21:07:38,586 - basicLogger - INFO - Returned event report_order_status response (Id: 2e537a9c-6fca-4d64-aa5b-d0dee9d046b4) with status 500
+2023-10-11 21:07:52,374 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 3 results
+2023-10-11 22:29:31,619 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 3 results
+2023-10-12 09:12:31,994 - basicLogger - INFO - Received event report_order_status request with a trace id of da8116c8-fbaa-4fa3-9d4a-b4a486683ca0
+2023-10-12 09:12:31,995 - basicLogger - INFO - Returned event report_order_status response (Id: da8116c8-fbaa-4fa3-9d4a-b4a486683ca0) with status 404
+2023-10-12 09:12:32,086 - basicLogger - INFO - Received event report_order_status request with a trace id of 8eb3bde9-a14c-4b9a-9f41-bf13fe74ba7c
+2023-10-12 09:12:32,087 - basicLogger - INFO - Returned event report_order_status response (Id: 8eb3bde9-a14c-4b9a-9f41-bf13fe74ba7c) with status 404
+2023-10-12 09:12:32,163 - basicLogger - INFO - Received event report_order_status request with a trace id of 9deaaa87-8a73-4269-a8b1-ee41157a68d7
+2023-10-12 09:12:32,164 - basicLogger - INFO - Returned event report_order_status response (Id: 9deaaa87-8a73-4269-a8b1-ee41157a68d7) with status 404
+2023-10-12 09:12:32,272 - basicLogger - INFO - Received event report_order_status request with a trace id of bde39385-9700-4a2c-9673-6d7ea1e6d9ec
+2023-10-12 09:12:32,273 - basicLogger - INFO - Returned event report_order_status response (Id: bde39385-9700-4a2c-9673-6d7ea1e6d9ec) with status 404
+2023-10-12 09:12:32,366 - basicLogger - INFO - Received event report_order_status request with a trace id of b25b39a5-8d5d-4fde-bd68-172b00681035
+2023-10-12 09:12:32,367 - basicLogger - INFO - Returned event report_order_status response (Id: b25b39a5-8d5d-4fde-bd68-172b00681035) with status 404
+2023-10-12 09:12:32,472 - basicLogger - INFO - Received event report_order_status request with a trace id of ef0240a3-91be-46fe-9554-77f354ea5aa5
+2023-10-12 09:12:32,473 - basicLogger - INFO - Returned event report_order_status response (Id: ef0240a3-91be-46fe-9554-77f354ea5aa5) with status 404
+2023-10-12 09:12:32,566 - basicLogger - INFO - Received event report_order_status request with a trace id of 6b09a767-7448-4a30-9262-660505fe9bef
+2023-10-12 09:12:32,567 - basicLogger - INFO - Returned event report_order_status response (Id: 6b09a767-7448-4a30-9262-660505fe9bef) with status 404
+2023-10-12 09:12:32,673 - basicLogger - INFO - Received event report_order_status request with a trace id of 306a48e0-363a-4a76-9252-ad0cf6068bdb
+2023-10-12 09:12:32,673 - basicLogger - INFO - Returned event report_order_status response (Id: 306a48e0-363a-4a76-9252-ad0cf6068bdb) with status 404
+2023-10-12 09:12:32,767 - basicLogger - INFO - Received event report_order_status request with a trace id of dffb9daa-f1af-47fe-a3db-8e25694a7b4e
+2023-10-12 09:12:32,767 - basicLogger - INFO - Returned event report_order_status response (Id: dffb9daa-f1af-47fe-a3db-8e25694a7b4e) with status 404
+2023-10-12 09:12:32,858 - basicLogger - INFO - Received event report_order_status request with a trace id of 7240d659-8fab-4f6f-bf5a-9a1c7cc4f749
+2023-10-12 09:12:32,858 - basicLogger - INFO - Returned event report_order_status response (Id: 7240d659-8fab-4f6f-bf5a-9a1c7cc4f749) with status 404
+2023-10-12 09:13:23,083 - basicLogger - INFO - Received event report_order_status request with a trace id of 5fcdd438-379b-47a5-82ab-19380f397a07
+2023-10-12 09:13:23,084 - basicLogger - INFO - Returned event report_order_status response (Id: 5fcdd438-379b-47a5-82ab-19380f397a07) with status 500
+2023-10-12 09:13:23,179 - basicLogger - INFO - Received event report_order_status request with a trace id of 9bff5bb2-d495-47a2-be93-23c7b0e8ac63
+2023-10-12 09:13:23,181 - basicLogger - INFO - Returned event report_order_status response (Id: 9bff5bb2-d495-47a2-be93-23c7b0e8ac63) with status 500
+2023-10-12 09:13:23,269 - basicLogger - INFO - Received event report_order_status request with a trace id of 04e3df14-cf2c-489a-9a7b-b25e0f69f736
+2023-10-12 09:13:23,269 - basicLogger - INFO - Returned event report_order_status response (Id: 04e3df14-cf2c-489a-9a7b-b25e0f69f736) with status 500
+2023-10-12 09:13:23,367 - basicLogger - INFO - Received event report_order_status request with a trace id of be609416-ab67-4a97-b131-098445621fea
+2023-10-12 09:13:23,368 - basicLogger - INFO - Returned event report_order_status response (Id: be609416-ab67-4a97-b131-098445621fea) with status 500
+2023-10-12 09:13:23,467 - basicLogger - INFO - Received event report_order_status request with a trace id of 5237e1a1-59f8-4302-b9f6-4b04c36b09f2
+2023-10-12 09:13:23,468 - basicLogger - INFO - Returned event report_order_status response (Id: 5237e1a1-59f8-4302-b9f6-4b04c36b09f2) with status 500
+2023-10-12 09:13:23,586 - basicLogger - INFO - Received event report_order_status request with a trace id of 1e8a03c6-eaf4-4f4b-8d31-586f526f2d71
+2023-10-12 09:13:23,587 - basicLogger - INFO - Returned event report_order_status response (Id: 1e8a03c6-eaf4-4f4b-8d31-586f526f2d71) with status 500
+2023-10-12 09:13:23,679 - basicLogger - INFO - Received event report_order_status request with a trace id of 33018620-0509-4362-9ec7-a0bd41251171
+2023-10-12 09:13:23,680 - basicLogger - INFO - Returned event report_order_status response (Id: 33018620-0509-4362-9ec7-a0bd41251171) with status 500
+2023-10-12 09:13:23,771 - basicLogger - INFO - Received event report_order_status request with a trace id of d29bcf7c-d98a-4e05-a30d-f49c8d873d8e
+2023-10-12 09:13:23,772 - basicLogger - INFO - Returned event report_order_status response (Id: d29bcf7c-d98a-4e05-a30d-f49c8d873d8e) with status 500
+2023-10-12 09:13:23,885 - basicLogger - INFO - Received event report_order_status request with a trace id of f48c7bc4-9e4c-4b28-aede-e0e1540ac9a8
+2023-10-12 09:13:23,885 - basicLogger - INFO - Returned event report_order_status response (Id: f48c7bc4-9e4c-4b28-aede-e0e1540ac9a8) with status 500
+2023-10-12 09:13:23,957 - basicLogger - INFO - Received event report_order_status request with a trace id of a9c28291-a439-4198-9d83-fafab106141a
+2023-10-12 09:13:23,958 - basicLogger - INFO - Returned event report_order_status response (Id: a9c28291-a439-4198-9d83-fafab106141a) with status 500
+2023-10-12 09:13:25,155 - basicLogger - INFO - Received event report_order_status request with a trace id of d089adbb-c47b-4bcf-8e3c-3f1c93f67879
+2023-10-12 09:13:25,155 - basicLogger - INFO - Returned event report_order_status response (Id: d089adbb-c47b-4bcf-8e3c-3f1c93f67879) with status 404
+2023-10-12 09:13:25,248 - basicLogger - INFO - Received event report_order_status request with a trace id of 34f1aa5a-61f1-4784-92d8-5bf4c36175ff
+2023-10-12 09:13:25,248 - basicLogger - INFO - Returned event report_order_status response (Id: 34f1aa5a-61f1-4784-92d8-5bf4c36175ff) with status 404
+2023-10-12 09:13:25,326 - basicLogger - INFO - Received event report_order_status request with a trace id of a7163f13-dea4-43e1-9f91-a62e516f8270
+2023-10-12 09:13:25,326 - basicLogger - INFO - Returned event report_order_status response (Id: a7163f13-dea4-43e1-9f91-a62e516f8270) with status 404
+2023-10-12 09:13:25,451 - basicLogger - INFO - Received event report_order_status request with a trace id of 060bb9ee-4dbd-42ab-8b3f-b4444fa2eccc
+2023-10-12 09:13:25,452 - basicLogger - INFO - Returned event report_order_status response (Id: 060bb9ee-4dbd-42ab-8b3f-b4444fa2eccc) with status 404
+2023-10-12 09:13:25,528 - basicLogger - INFO - Received event report_order_status request with a trace id of 7834e3b9-45ef-4b0f-a2e4-bbc154599569
+2023-10-12 09:13:25,529 - basicLogger - INFO - Returned event report_order_status response (Id: 7834e3b9-45ef-4b0f-a2e4-bbc154599569) with status 404
+2023-10-12 09:13:25,668 - basicLogger - INFO - Received event report_order_status request with a trace id of 3c83e98e-6882-49cd-a100-de8121711de4
+2023-10-12 09:13:25,669 - basicLogger - INFO - Returned event report_order_status response (Id: 3c83e98e-6882-49cd-a100-de8121711de4) with status 404
+2023-10-12 09:13:25,746 - basicLogger - INFO - Received event report_order_status request with a trace id of 0b7d7169-8c7a-4ab3-90f5-a928cf2c3ab9
+2023-10-12 09:13:25,747 - basicLogger - INFO - Returned event report_order_status response (Id: 0b7d7169-8c7a-4ab3-90f5-a928cf2c3ab9) with status 404
+2023-10-12 09:13:25,838 - basicLogger - INFO - Received event report_order_status request with a trace id of 6158afd5-c948-4d17-8124-28dff0505bdc
+2023-10-12 09:13:25,840 - basicLogger - INFO - Returned event report_order_status response (Id: 6158afd5-c948-4d17-8124-28dff0505bdc) with status 404
+2023-10-12 09:13:25,947 - basicLogger - INFO - Received event report_order_status request with a trace id of 5657df64-22d5-41c1-92ec-c583eb926507
+2023-10-12 09:13:25,948 - basicLogger - INFO - Returned event report_order_status response (Id: 5657df64-22d5-41c1-92ec-c583eb926507) with status 404
+2023-10-12 09:13:26,025 - basicLogger - INFO - Received event report_order_status request with a trace id of 93e7cb63-6523-4e94-a1e8-bb5a9bc333ce
+2023-10-12 09:13:26,026 - basicLogger - INFO - Returned event report_order_status response (Id: 93e7cb63-6523-4e94-a1e8-bb5a9bc333ce) with status 404
+2023-10-12 09:23:01,083 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 13 results
+2023-10-12 09:24:17,845 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 13 results
+2023-10-12 09:38:08,938 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD66E10>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.195384', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1248237', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,939 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8C170>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.593980', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1336711', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,940 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CA70>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.693516', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1337112', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,940 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CAD0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:20.993995', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1396419', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,941 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CB30>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.494808', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1483694', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,942 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CB90>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.293882', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1504817', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,943 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CBF0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.104318', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1587623', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,944 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CC50>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.793716', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1664459', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,945 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CCB0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.893711', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1731410', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,946 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CD10>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.395416', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1920992', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,947 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CD70>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-11 21:07:36.425614', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '7834fhasd7fadsb', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,948 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CDD0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-11 20:11:41.806427', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '7834fhasd7fadsbi', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,949 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002152AD8CE30>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-11 20:30:42.877058', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': 'fquwe8ajfasld', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:38:08,951 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 13 results
+2023-10-12 09:44:20,125 - basicLogger - INFO - Received event report_order_status request with a trace id of 8ff8a163-d159-4ed3-b417-d3c10e10d48b
+2023-10-12 09:44:20,159 - basicLogger - INFO - Received event report_order_status request with a trace id of aaf17bf7-f53b-4113-8a98-328daaf0d9b0
+2023-10-12 09:44:20,160 - basicLogger - INFO - Received event report_order_status request with a trace id of 2085b895-35c5-4df3-b487-6f64e1618b76
+2023-10-12 09:44:20,160 - basicLogger - INFO - Returned event report_order_status response (Id: 8ff8a163-d159-4ed3-b417-d3c10e10d48b) with status 500
+2023-10-12 09:44:20,163 - basicLogger - INFO - Received event report_order_status request with a trace id of c22086ed-a302-4d36-a8e9-32aefc9ae24a
+2023-10-12 09:44:20,198 - basicLogger - INFO - Returned event report_order_status response (Id: aaf17bf7-f53b-4113-8a98-328daaf0d9b0) with status 500
+2023-10-12 09:44:20,198 - basicLogger - INFO - Received event report_order_status request with a trace id of 8ff400e6-00e4-42c7-a0ab-ec78d37e6440
+2023-10-12 09:44:20,199 - basicLogger - INFO - Returned event report_order_status response (Id: 2085b895-35c5-4df3-b487-6f64e1618b76) with status 500
+2023-10-12 09:44:20,201 - basicLogger - INFO - Returned event report_order_status response (Id: c22086ed-a302-4d36-a8e9-32aefc9ae24a) with status 500
+2023-10-12 09:44:20,202 - basicLogger - INFO - Received event report_order_status request with a trace id of 4d5af6e9-ca5b-4752-8588-ed15438c28fe
+2023-10-12 09:44:20,204 - basicLogger - INFO - Returned event report_order_status response (Id: 8ff400e6-00e4-42c7-a0ab-ec78d37e6440) with status 500
+2023-10-12 09:44:20,206 - basicLogger - INFO - Returned event report_order_status response (Id: 4d5af6e9-ca5b-4752-8588-ed15438c28fe) with status 500
+2023-10-12 09:44:20,261 - basicLogger - INFO - Received event report_order_status request with a trace id of b139a8d2-6504-474c-86eb-2a3871301b24
+2023-10-12 09:44:20,263 - basicLogger - INFO - Returned event report_order_status response (Id: b139a8d2-6504-474c-86eb-2a3871301b24) with status 500
+2023-10-12 09:44:20,328 - basicLogger - INFO - Received event report_order_status request with a trace id of 851fc3c4-ce76-436e-b695-0954e9edcd90
+2023-10-12 09:44:20,329 - basicLogger - INFO - Returned event report_order_status response (Id: 851fc3c4-ce76-436e-b695-0954e9edcd90) with status 500
+2023-10-12 09:44:20,418 - basicLogger - INFO - Received event report_order_status request with a trace id of 794711aa-876e-4659-99d5-a9ed2b189b3d
+2023-10-12 09:44:20,418 - basicLogger - INFO - Returned event report_order_status response (Id: 794711aa-876e-4659-99d5-a9ed2b189b3d) with status 500
+2023-10-12 09:44:20,521 - basicLogger - INFO - Received event report_order_status request with a trace id of 793a8257-e14a-422b-9521-95bbb6592082
+2023-10-12 09:44:20,522 - basicLogger - INFO - Returned event report_order_status response (Id: 793a8257-e14a-422b-9521-95bbb6592082) with status 500
+2023-10-12 09:44:22,267 - basicLogger - INFO - Received event report_order_status request with a trace id of 624ec11f-b372-4c99-aa81-dca997ab8493
+2023-10-12 09:44:22,268 - basicLogger - INFO - Returned event report_order_status response (Id: 624ec11f-b372-4c99-aa81-dca997ab8493) with status 404
+2023-10-12 09:44:22,268 - basicLogger - INFO - Received event report_order_status request with a trace id of a41e0b19-cac9-46c3-9bea-f043fecb096e
+2023-10-12 09:44:22,269 - basicLogger - INFO - Returned event report_order_status response (Id: a41e0b19-cac9-46c3-9bea-f043fecb096e) with status 404
+2023-10-12 09:44:22,280 - basicLogger - INFO - Received event report_order_status request with a trace id of f344c7b0-85d8-42cb-b6a9-51a464c9e2c0
+2023-10-12 09:44:22,282 - basicLogger - INFO - Returned event report_order_status response (Id: f344c7b0-85d8-42cb-b6a9-51a464c9e2c0) with status 404
+2023-10-12 09:44:22,313 - basicLogger - INFO - Received event report_order_status request with a trace id of 8f499905-5c03-414c-93f4-c1ef58ff4db5
+2023-10-12 09:44:22,315 - basicLogger - INFO - Returned event report_order_status response (Id: 8f499905-5c03-414c-93f4-c1ef58ff4db5) with status 404
+2023-10-12 09:44:22,317 - basicLogger - INFO - Received event report_order_status request with a trace id of cf9661e4-999f-4c05-a268-12e2d3cc69ac
+2023-10-12 09:44:22,319 - basicLogger - INFO - Returned event report_order_status response (Id: cf9661e4-999f-4c05-a268-12e2d3cc69ac) with status 404
+2023-10-12 09:44:22,319 - basicLogger - INFO - Received event report_order_status request with a trace id of 08c77d20-9026-4e31-84cc-7dfb2e652961
+2023-10-12 09:44:22,320 - basicLogger - INFO - Returned event report_order_status response (Id: 08c77d20-9026-4e31-84cc-7dfb2e652961) with status 404
+2023-10-12 09:44:22,327 - basicLogger - INFO - Received event report_order_status request with a trace id of 94ca6622-ba92-408b-9584-c5d6e2ffb702
+2023-10-12 09:44:22,328 - basicLogger - INFO - Returned event report_order_status response (Id: 94ca6622-ba92-408b-9584-c5d6e2ffb702) with status 404
+2023-10-12 09:44:22,419 - basicLogger - INFO - Received event report_order_status request with a trace id of 0699a824-f7fc-4578-bb2c-e8fe06956162
+2023-10-12 09:44:22,421 - basicLogger - INFO - Returned event report_order_status response (Id: 0699a824-f7fc-4578-bb2c-e8fe06956162) with status 404
+2023-10-12 09:44:22,480 - basicLogger - INFO - Received event report_order_status request with a trace id of 138beef9-1caf-498b-9cf6-d4f5d6b1acbd
+2023-10-12 09:44:22,481 - basicLogger - INFO - Returned event report_order_status response (Id: 138beef9-1caf-498b-9cf6-d4f5d6b1acbd) with status 404
+2023-10-12 09:44:22,573 - basicLogger - INFO - Received event report_order_status request with a trace id of 4c412eb1-b33a-46e5-8081-ba21371e0688
+2023-10-12 09:44:22,573 - basicLogger - INFO - Returned event report_order_status response (Id: 4c412eb1-b33a-46e5-8081-ba21371e0688) with status 404
+2023-10-12 09:49:05,239 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C698AD0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:18.063084', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1202347', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,241 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C698770>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.195384', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1248237', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,241 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C698590>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:18.259561', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1270197', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,242 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A030>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.593980', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1336711', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,243 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A090>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.693516', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1337112', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,244 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A0F0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:20.993995', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1396419', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,245 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A150>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:17.656350', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1452533', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,246 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A1B0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:17.960678', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1463102', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,246 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A210>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:17.859669', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1470702', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,247 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A270>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.494808', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1483694', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,248 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A2D0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:18.457236', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1491131', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,248 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A330>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.293882', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1504817', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,249 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A390>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:17.756441', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1513204', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,250 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A3F0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:17.563976', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1581226', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,250 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A450>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.104318', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1587623', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,251 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A4B0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.793716', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1664459', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,252 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A510>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.893711', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1731410', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,252 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A570>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:18.158349', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1849674', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,253 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A5D0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:13:21.395416', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1920992', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,254 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A690>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-12 09:44:18.356592', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '1968133', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,254 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A7B0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-11 21:07:36.425614', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '7834fhasd7fadsb', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,255 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A8D0>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-11 20:11:41.806427', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': '7834fhasd7fadsbi', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,257 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000002764C69A990>, 'OrderType': 'Delivery', 'CustomerAdress': '123 elm st', 'Tip': None, 'date_created': '2023-10-11 20:30:42.877058', 'RestaurantID': 'cvasd8-d8caj-d87r', 'TimeStamp': '2017-07-21T17:32:28Z', 'OrderID': 'fquwe8ajfasld', 'Customer_PhoneNumber': '7784235023'}
+2023-10-12 09:49:05,258 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 23 results
+2023-10-12 10:06:36,605 - basicLogger - INFO - Received event report_order_status request with a trace id of aced618b-b1ed-4614-b6f2-134098fe5e26
+2023-10-12 10:06:36,614 - basicLogger - INFO - Received event report_order_status request with a trace id of e237719b-47d4-416b-8b54-c09cac6985d5
+2023-10-12 10:06:36,614 - basicLogger - INFO - Returned event report_order_status response (Id: aced618b-b1ed-4614-b6f2-134098fe5e26) with status 500
+2023-10-12 10:06:36,692 - basicLogger - INFO - Returned event report_order_status response (Id: e237719b-47d4-416b-8b54-c09cac6985d5) with status 500
+2023-10-12 10:06:36,701 - basicLogger - INFO - Received event report_order_status request with a trace id of 86b654b2-dcac-4da3-8ff0-101cde9e9375
+2023-10-12 10:06:36,709 - basicLogger - INFO - Returned event report_order_status response (Id: 86b654b2-dcac-4da3-8ff0-101cde9e9375) with status 500
+2023-10-12 10:06:36,809 - basicLogger - INFO - Received event report_order_status request with a trace id of 643bbc0b-d81d-44a1-a265-c89e3c2126aa
+2023-10-12 10:06:36,815 - basicLogger - INFO - Returned event report_order_status response (Id: 643bbc0b-d81d-44a1-a265-c89e3c2126aa) with status 500
+2023-10-12 10:06:36,932 - basicLogger - INFO - Received event report_order_status request with a trace id of 53371f62-21e2-4232-b0e6-32f31c464854
+2023-10-12 10:06:37,002 - basicLogger - INFO - Returned event report_order_status response (Id: 53371f62-21e2-4232-b0e6-32f31c464854) with status 500
+2023-10-12 10:06:37,011 - basicLogger - INFO - Received event report_order_status request with a trace id of 3eb006e6-532b-4f27-b411-98d0a0b140ee
+2023-10-12 10:06:37,093 - basicLogger - INFO - Returned event report_order_status response (Id: 3eb006e6-532b-4f27-b411-98d0a0b140ee) with status 500
+2023-10-12 10:06:37,102 - basicLogger - INFO - Received event report_order_status request with a trace id of 58845b5c-91da-4dc0-a39f-52f0bfa3c0dc
+2023-10-12 10:06:37,180 - basicLogger - INFO - Returned event report_order_status response (Id: 58845b5c-91da-4dc0-a39f-52f0bfa3c0dc) with status 500
+2023-10-12 10:06:37,184 - basicLogger - INFO - Received event report_order_status request with a trace id of e436e61a-d85e-4646-ae2e-e8f90461b918
+2023-10-12 10:06:37,259 - basicLogger - INFO - Returned event report_order_status response (Id: e436e61a-d85e-4646-ae2e-e8f90461b918) with status 500
+2023-10-12 10:06:37,277 - basicLogger - INFO - Received event report_order_status request with a trace id of 05a0fa22-3545-468d-8e3b-4d252833ed05
+2023-10-12 10:06:37,277 - basicLogger - INFO - Returned event report_order_status response (Id: 05a0fa22-3545-468d-8e3b-4d252833ed05) with status 500
+2023-10-12 10:06:37,372 - basicLogger - INFO - Received event report_order_status request with a trace id of f6137d02-cca5-40a6-9e00-32bb90f0eb6b
+2023-10-12 10:06:37,372 - basicLogger - INFO - Returned event report_order_status response (Id: f6137d02-cca5-40a6-9e00-32bb90f0eb6b) with status 500
+2023-10-12 10:06:38,806 - basicLogger - INFO - Received event report_order_status request with a trace id of 9c08b16d-88aa-4d4e-84c9-f39d699f30bb
+2023-10-12 10:06:38,806 - basicLogger - INFO - Returned event report_order_status response (Id: 9c08b16d-88aa-4d4e-84c9-f39d699f30bb) with status 404
+2023-10-12 10:06:38,812 - basicLogger - INFO - Received event report_order_status request with a trace id of c002516c-c23b-400d-aee4-4af33c3bca8c
+2023-10-12 10:06:38,815 - basicLogger - INFO - Returned event report_order_status response (Id: c002516c-c23b-400d-aee4-4af33c3bca8c) with status 404
+2023-10-12 10:06:38,883 - basicLogger - INFO - Received event report_order_status request with a trace id of a8fd6d77-6cd9-410a-9698-274985fae593
+2023-10-12 10:06:38,885 - basicLogger - INFO - Returned event report_order_status response (Id: a8fd6d77-6cd9-410a-9698-274985fae593) with status 404
+2023-10-12 10:06:38,885 - basicLogger - INFO - Received event report_order_status request with a trace id of f312e208-2262-4c58-99f6-f9d98c2d4553
+2023-10-12 10:06:38,893 - basicLogger - INFO - Returned event report_order_status response (Id: f312e208-2262-4c58-99f6-f9d98c2d4553) with status 404
+2023-10-12 10:06:39,157 - basicLogger - INFO - Received event report_order_status request with a trace id of 39197a1c-5955-40ba-afaf-30e00ee72446
+2023-10-12 10:06:39,157 - basicLogger - INFO - Returned event report_order_status response (Id: 39197a1c-5955-40ba-afaf-30e00ee72446) with status 404
+2023-10-12 10:06:39,242 - basicLogger - INFO - Received event report_order_status request with a trace id of 7bc32cec-974d-4c97-b06a-b05044acb491
+2023-10-12 10:06:39,250 - basicLogger - INFO - Returned event report_order_status response (Id: 7bc32cec-974d-4c97-b06a-b05044acb491) with status 404
+2023-10-12 10:06:39,333 - basicLogger - INFO - Received event report_order_status request with a trace id of 912c1711-7b61-477a-a433-e69df92397e9
+2023-10-12 10:06:39,333 - basicLogger - INFO - Returned event report_order_status response (Id: 912c1711-7b61-477a-a433-e69df92397e9) with status 404
+2023-10-12 10:06:39,343 - basicLogger - INFO - Received event report_order_status request with a trace id of 38cebc6d-1b4b-4cf8-ac15-39a82eebe795
+2023-10-12 10:06:39,350 - basicLogger - INFO - Returned event report_order_status response (Id: 38cebc6d-1b4b-4cf8-ac15-39a82eebe795) with status 404
+2023-10-12 10:06:39,434 - basicLogger - INFO - Received event report_order_status request with a trace id of 2d9f610c-6126-488c-bf37-be4458f37701
+2023-10-12 10:06:39,436 - basicLogger - INFO - Returned event report_order_status response (Id: 2d9f610c-6126-488c-bf37-be4458f37701) with status 404
+2023-10-12 10:06:39,436 - basicLogger - INFO - Received event report_order_status request with a trace id of 6ea79eea-5cbb-41c5-abd6-4c5e91b39f22
+2023-10-12 10:06:39,436 - basicLogger - INFO - Returned event report_order_status response (Id: 6ea79eea-5cbb-41c5-abd6-4c5e91b39f22) with status 404

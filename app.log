@@ -1,0 +1,154 @@
+2023-10-12 10:47:37,393 - basicLogger - INFO - Received event report_order_status request with a trace id of 6ccfad1e-a88a-43b1-9f9e-11e2e150ba6c
+2023-10-12 10:47:37,393 - basicLogger - INFO - Returned event report_order_status response (Id: 6ccfad1e-a88a-43b1-9f9e-11e2e150ba6c) with status 400
+2023-10-12 10:53:01,187 - basicLogger - INFO - Received event report_order_status request with a trace id of 628532a6-f289-42e0-9d85-8f26733194b7
+2023-10-12 10:53:01,188 - basicLogger - INFO - Returned event report_order_status response (Id: 628532a6-f289-42e0-9d85-8f26733194b7) with status 500
+2023-10-12 10:53:11,206 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 12359fce-6582-48c1-9881-02de92fd71bc
+2023-10-12 10:53:11,208 - basicLogger - INFO - Received event report_order_status request with a trace id of 3eba25f7-43dd-4449-ac9e-cbd226ae869f
+2023-10-12 10:53:11,208 - basicLogger - INFO - Returned event report_order_status response (Id: 3eba25f7-43dd-4449-ac9e-cbd226ae869f) with status 201
+2023-10-12 10:53:11,283 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 76ece808-835f-40a9-9248-c1142f4d793a
+2023-10-12 10:53:11,286 - basicLogger - INFO - Received event report_order_status request with a trace id of c226c2a6-d7bb-41b9-bff1-3196e11c91d8
+2023-10-12 10:53:11,287 - basicLogger - INFO - Returned event report_order_status response (Id: c226c2a6-d7bb-41b9-bff1-3196e11c91d8) with status 201
+2023-10-12 10:53:11,393 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 40aeb97a-a11c-413b-b478-cbb3aac6f675
+2023-10-12 10:53:11,397 - basicLogger - INFO - Received event report_order_status request with a trace id of e81033f7-c44c-461d-9810-c31178ada216
+2023-10-12 10:53:11,398 - basicLogger - INFO - Returned event report_order_status response (Id: e81033f7-c44c-461d-9810-c31178ada216) with status 201
+2023-10-12 10:53:11,468 - basicLogger - DEBUG - Received event report_order_status request with a trace id of f24db9e6-a7b8-4bce-9b4a-e1fe3aed7a5b
+2023-10-12 10:53:11,471 - basicLogger - INFO - Received event report_order_status request with a trace id of e91f8dfc-dc94-40f5-99d6-606ed9d6c804
+2023-10-12 10:53:11,471 - basicLogger - INFO - Returned event report_order_status response (Id: e91f8dfc-dc94-40f5-99d6-606ed9d6c804) with status 201
+2023-10-12 10:53:11,594 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 32a89e52-f7e6-415a-aca1-7f598bf9c18c
+2023-10-12 10:53:11,597 - basicLogger - INFO - Received event report_order_status request with a trace id of 8383573b-7533-453f-a869-822a2d095c8c
+2023-10-12 10:53:11,599 - basicLogger - INFO - Returned event report_order_status response (Id: 8383573b-7533-453f-a869-822a2d095c8c) with status 201
+2023-10-12 10:53:11,671 - basicLogger - DEBUG - Received event report_order_status request with a trace id of d1ef90da-bf0c-4a2b-aa7f-75718d462948
+2023-10-12 10:53:11,672 - basicLogger - INFO - Received event report_order_status request with a trace id of 4ebfa4ac-a892-41fe-891a-2b662c694323
+2023-10-12 10:53:11,673 - basicLogger - INFO - Returned event report_order_status response (Id: 4ebfa4ac-a892-41fe-891a-2b662c694323) with status 201
+2023-10-12 10:53:11,777 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 8c9ec43a-569b-44ef-879d-47ca88bb996c
+2023-10-12 10:53:11,779 - basicLogger - INFO - Received event report_order_status request with a trace id of 3f716c84-61cb-42c8-8f69-e952fc8ce614
+2023-10-12 10:53:11,780 - basicLogger - INFO - Returned event report_order_status response (Id: 3f716c84-61cb-42c8-8f69-e952fc8ce614) with status 201
+2023-10-12 10:53:11,872 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 89f0d263-d931-4b5a-b744-1fbe93d1ec1e
+2023-10-12 10:53:11,874 - basicLogger - INFO - Received event report_order_status request with a trace id of 897e09a7-cad7-4c5f-aab7-75022fa584e6
+2023-10-12 10:53:11,876 - basicLogger - INFO - Returned event report_order_status response (Id: 897e09a7-cad7-4c5f-aab7-75022fa584e6) with status 201
+2023-10-12 10:53:11,983 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 87e07bb3-5d58-4f5c-ba5e-f9cc3ee21dfc
+2023-10-12 10:53:11,986 - basicLogger - INFO - Received event report_order_status request with a trace id of 54d39814-1847-4ea0-8349-4476fb31ea9b
+2023-10-12 10:53:11,986 - basicLogger - INFO - Returned event report_order_status response (Id: 54d39814-1847-4ea0-8349-4476fb31ea9b) with status 201
+2023-10-12 10:53:12,092 - basicLogger - DEBUG - Received event report_order_status request with a trace id of a08ba13f-73a1-4d0f-a213-7d16d1469949
+2023-10-12 10:53:12,094 - basicLogger - INFO - Received event report_order_status request with a trace id of 2bce88b1-eeb2-4245-a217-a88895b77215
+2023-10-12 10:53:12,095 - basicLogger - INFO - Returned event report_order_status response (Id: 2bce88b1-eeb2-4245-a217-a88895b77215) with status 201
+2023-10-12 10:53:13,246 - basicLogger - INFO - Received event reportETA request with a trace id of 5acab466-0f4b-4227-a345-e439237f2fa6
+2023-10-12 10:53:13,247 - basicLogger - INFO - Returned event reportETA response (Id: 5acab466-0f4b-4227-a345-e439237f2fa6) with status 404
+2023-10-12 10:53:13,348 - basicLogger - INFO - Received event reportETA request with a trace id of 3308b8d2-46c5-4353-b60e-dee83e719b22
+2023-10-12 10:53:13,348 - basicLogger - INFO - Returned event reportETA response (Id: 3308b8d2-46c5-4353-b60e-dee83e719b22) with status 404
+2023-10-12 10:53:13,436 - basicLogger - INFO - Received event reportETA request with a trace id of 131a97ed-e56f-4ac6-bfdc-172cd1b65b83
+2023-10-12 10:53:13,436 - basicLogger - INFO - Returned event reportETA response (Id: 131a97ed-e56f-4ac6-bfdc-172cd1b65b83) with status 404
+2023-10-12 10:53:13,514 - basicLogger - INFO - Received event reportETA request with a trace id of 51ca8f76-f16a-4386-9a31-ef5ae67ac907
+2023-10-12 10:53:13,514 - basicLogger - INFO - Returned event reportETA response (Id: 51ca8f76-f16a-4386-9a31-ef5ae67ac907) with status 404
+2023-10-12 10:53:13,639 - basicLogger - INFO - Received event reportETA request with a trace id of 129ac08a-8f22-4458-9396-c04f74d462ac
+2023-10-12 10:53:13,639 - basicLogger - INFO - Returned event reportETA response (Id: 129ac08a-8f22-4458-9396-c04f74d462ac) with status 404
+2023-10-12 10:53:13,701 - basicLogger - INFO - Received event reportETA request with a trace id of 4325fb4a-d7f9-46bc-bdab-1de3c73713e2
+2023-10-12 10:53:13,702 - basicLogger - INFO - Returned event reportETA response (Id: 4325fb4a-d7f9-46bc-bdab-1de3c73713e2) with status 404
+2023-10-12 10:53:13,855 - basicLogger - INFO - Received event reportETA request with a trace id of 82edbf13-1643-424d-9817-6e54d8b2e2cc
+2023-10-12 10:53:13,856 - basicLogger - INFO - Returned event reportETA response (Id: 82edbf13-1643-424d-9817-6e54d8b2e2cc) with status 404
+2023-10-12 10:53:13,918 - basicLogger - INFO - Received event reportETA request with a trace id of 72d85744-2fb0-4fa7-8b06-82a432270f8b
+2023-10-12 10:53:13,919 - basicLogger - INFO - Returned event reportETA response (Id: 72d85744-2fb0-4fa7-8b06-82a432270f8b) with status 404
+2023-10-12 10:53:14,025 - basicLogger - INFO - Received event reportETA request with a trace id of 9f67fee5-33a2-49f5-9211-9be929473d80
+2023-10-12 10:53:14,026 - basicLogger - INFO - Returned event reportETA response (Id: 9f67fee5-33a2-49f5-9211-9be929473d80) with status 404
+2023-10-12 10:53:14,137 - basicLogger - INFO - Received event reportETA request with a trace id of 795b20b0-176e-4c1e-9611-2df06da06982
+2023-10-12 10:53:14,138 - basicLogger - INFO - Returned event reportETA response (Id: 795b20b0-176e-4c1e-9611-2df06da06982) with status 404
+2023-10-12 10:56:15,659 - basicLogger - DEBUG - Received event report_order_status request with a trace id of b995210f-77af-433c-8a2f-f7349ba8dc62
+2023-10-12 10:56:15,661 - basicLogger - INFO - Received event report_order_status request with a trace id of 966572d0-f641-4ded-8c5c-8d31ec2c32a3
+2023-10-12 10:56:15,661 - basicLogger - INFO - Returned event report_order_status response (Id: 966572d0-f641-4ded-8c5c-8d31ec2c32a3) with status 201
+2023-10-12 10:56:15,672 - basicLogger - DEBUG - Received event report_order_status request with a trace id of e199426a-83a7-4866-a505-6093622f6a66
+2023-10-12 10:56:15,674 - basicLogger - INFO - Received event report_order_status request with a trace id of 7978bf25-1b2d-4349-806e-8d4463fb497e
+2023-10-12 10:56:15,675 - basicLogger - INFO - Returned event report_order_status response (Id: 7978bf25-1b2d-4349-806e-8d4463fb497e) with status 201
+2023-10-12 10:56:15,751 - basicLogger - DEBUG - Received event report_order_status request with a trace id of f16e6c0d-96a1-4500-92fa-75c6d7a62eb6
+2023-10-12 10:56:15,754 - basicLogger - INFO - Received event report_order_status request with a trace id of bc028f03-5dfa-4f31-89a5-43e9f034492e
+2023-10-12 10:56:15,754 - basicLogger - INFO - Returned event report_order_status response (Id: bc028f03-5dfa-4f31-89a5-43e9f034492e) with status 201
+2023-10-12 10:56:15,813 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 8c097ba2-19b8-45e5-add7-572eddbcc875
+2023-10-12 10:56:15,815 - basicLogger - INFO - Received event report_order_status request with a trace id of 0ff7f40e-74c7-4743-8fe3-81dcdf12fa2c
+2023-10-12 10:56:15,816 - basicLogger - INFO - Returned event report_order_status response (Id: 0ff7f40e-74c7-4743-8fe3-81dcdf12fa2c) with status 201
+2023-10-12 10:56:15,926 - basicLogger - DEBUG - Received event report_order_status request with a trace id of c673cea1-50dd-40c6-99f2-4e86afb9d697
+2023-10-12 10:56:15,929 - basicLogger - INFO - Received event report_order_status request with a trace id of b8e0dd40-3386-4d82-b636-4ef3f30fe091
+2023-10-12 10:56:15,929 - basicLogger - INFO - Returned event report_order_status response (Id: b8e0dd40-3386-4d82-b636-4ef3f30fe091) with status 201
+2023-10-12 10:56:16,018 - basicLogger - DEBUG - Received event report_order_status request with a trace id of b470d72c-e7da-4e49-96fe-f686ccd9328d
+2023-10-12 10:56:16,020 - basicLogger - INFO - Received event report_order_status request with a trace id of 55c98081-3685-4234-9827-f61782263c9e
+2023-10-12 10:56:16,021 - basicLogger - INFO - Returned event report_order_status response (Id: 55c98081-3685-4234-9827-f61782263c9e) with status 201
+2023-10-12 10:56:16,126 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 347b52d2-a05d-4320-a89d-4a4b4db3a3e3
+2023-10-12 10:56:16,128 - basicLogger - INFO - Received event report_order_status request with a trace id of 020d5d86-6072-435e-ba60-b65cba8617d8
+2023-10-12 10:56:16,129 - basicLogger - INFO - Returned event report_order_status response (Id: 020d5d86-6072-435e-ba60-b65cba8617d8) with status 201
+2023-10-12 10:56:16,234 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 3270b8fb-7c98-4c85-8b76-e16a36d326e1
+2023-10-12 10:56:16,235 - basicLogger - INFO - Received event report_order_status request with a trace id of 3faf4f32-bd64-4ca2-8801-62af9d15c15c
+2023-10-12 10:56:16,236 - basicLogger - INFO - Returned event report_order_status response (Id: 3faf4f32-bd64-4ca2-8801-62af9d15c15c) with status 201
+2023-10-12 10:56:16,329 - basicLogger - DEBUG - Received event report_order_status request with a trace id of e21d3b4f-2c23-4fb0-bb6b-2d6b009f122c
+2023-10-12 10:56:16,331 - basicLogger - INFO - Received event report_order_status request with a trace id of 90312f4f-6925-4926-88ee-7ac0dc372253
+2023-10-12 10:56:16,332 - basicLogger - INFO - Returned event report_order_status response (Id: 90312f4f-6925-4926-88ee-7ac0dc372253) with status 201
+2023-10-12 10:56:16,435 - basicLogger - DEBUG - Received event report_order_status request with a trace id of a35e2a19-4589-4978-b733-d79486e19e2a
+2023-10-12 10:56:16,437 - basicLogger - INFO - Received event report_order_status request with a trace id of 1cbaffdc-cbc3-4de3-8c14-83a238707443
+2023-10-12 10:56:16,438 - basicLogger - INFO - Returned event report_order_status response (Id: 1cbaffdc-cbc3-4de3-8c14-83a238707443) with status 201
+2023-10-12 10:56:17,704 - basicLogger - INFO - Received event reportETA request with a trace id of 7229cc98-4f2b-4840-ae9d-de7c5908da3c
+2023-10-12 10:56:17,705 - basicLogger - INFO - Returned event reportETA response (Id: 7229cc98-4f2b-4840-ae9d-de7c5908da3c) with status 404
+2023-10-12 10:56:17,720 - basicLogger - INFO - Received event reportETA request with a trace id of b44d564e-1120-4731-8c8e-993a62c85dad
+2023-10-12 10:56:17,721 - basicLogger - INFO - Returned event reportETA response (Id: b44d564e-1120-4731-8c8e-993a62c85dad) with status 404
+2023-10-12 10:56:17,796 - basicLogger - INFO - Received event reportETA request with a trace id of 66d9028d-92be-4c9e-bfab-90c20fa6f0c0
+2023-10-12 10:56:17,796 - basicLogger - INFO - Returned event reportETA response (Id: 66d9028d-92be-4c9e-bfab-90c20fa6f0c0) with status 404
+2023-10-12 10:56:17,874 - basicLogger - INFO - Received event reportETA request with a trace id of 8c935545-ee06-49f3-b785-266874377e87
+2023-10-12 10:56:17,874 - basicLogger - INFO - Returned event reportETA response (Id: 8c935545-ee06-49f3-b785-266874377e87) with status 404
+2023-10-12 10:56:17,970 - basicLogger - INFO - Received event reportETA request with a trace id of e08e5a21-51f9-421b-9ae6-d8671cb6e2d4
+2023-10-12 10:56:17,971 - basicLogger - INFO - Returned event reportETA response (Id: e08e5a21-51f9-421b-9ae6-d8671cb6e2d4) with status 404
+2023-10-12 10:56:18,045 - basicLogger - INFO - Received event reportETA request with a trace id of f57b8306-a5fa-4ea5-8cf8-81fa3c74f5c7
+2023-10-12 10:56:18,046 - basicLogger - INFO - Returned event reportETA response (Id: f57b8306-a5fa-4ea5-8cf8-81fa3c74f5c7) with status 404
+2023-10-12 10:56:18,171 - basicLogger - INFO - Received event reportETA request with a trace id of 655dbc7a-679f-4705-8174-41b9396a76e2
+2023-10-12 10:56:18,172 - basicLogger - INFO - Returned event reportETA response (Id: 655dbc7a-679f-4705-8174-41b9396a76e2) with status 404
+2023-10-12 10:56:18,280 - basicLogger - INFO - Received event reportETA request with a trace id of 07ec52f7-1f15-49f3-87e5-849caaab6b1c
+2023-10-12 10:56:18,280 - basicLogger - INFO - Returned event reportETA response (Id: 07ec52f7-1f15-49f3-87e5-849caaab6b1c) with status 404
+2023-10-12 10:56:18,373 - basicLogger - INFO - Received event reportETA request with a trace id of 4d921e08-34dc-4caa-bf17-485608e13605
+2023-10-12 10:56:18,373 - basicLogger - INFO - Returned event reportETA response (Id: 4d921e08-34dc-4caa-bf17-485608e13605) with status 404
+2023-10-12 10:56:18,482 - basicLogger - INFO - Received event reportETA request with a trace id of bf9ef368-3cda-45e8-b2ae-5e6b6c951c83
+2023-10-12 10:56:18,483 - basicLogger - INFO - Returned event reportETA response (Id: bf9ef368-3cda-45e8-b2ae-5e6b6c951c83) with status 404
+2023-10-12 10:57:11,578 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 950e91d6-87f1-46c6-97cf-c777518e7a7c
+2023-10-12 10:57:11,587 - basicLogger - INFO - Received event report_order_status request with a trace id of 32758c84-cfbb-4bfd-9d12-ca89fe3cf966
+2023-10-12 10:57:11,587 - basicLogger - INFO - Returned event report_order_status response (Id: 32758c84-cfbb-4bfd-9d12-ca89fe3cf966) with status 201
+2023-10-12 10:57:11,663 - basicLogger - DEBUG - Received event report_order_status request with a trace id of b722b5e2-76c9-4c64-8b66-8ae8d4fccfae
+2023-10-12 10:57:11,666 - basicLogger - INFO - Received event report_order_status request with a trace id of 575fac29-8227-47fb-9c5c-6b4e998e2107
+2023-10-12 10:57:11,670 - basicLogger - INFO - Returned event report_order_status response (Id: 575fac29-8227-47fb-9c5c-6b4e998e2107) with status 201
+2023-10-12 10:57:11,759 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 14484eba-d395-4c3a-8cad-01d44c651550
+2023-10-12 10:57:11,766 - basicLogger - INFO - Received event report_order_status request with a trace id of e18f3621-310c-449f-a229-6e265f408eb7
+2023-10-12 10:57:11,766 - basicLogger - INFO - Returned event report_order_status response (Id: e18f3621-310c-449f-a229-6e265f408eb7) with status 201
+2023-10-12 10:57:11,878 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 0eb708c6-406d-42dc-984b-048d30f5b8c5
+2023-10-12 10:57:11,885 - basicLogger - INFO - Received event report_order_status request with a trace id of beb6fa24-4042-486d-9f5f-440d3dcb4f32
+2023-10-12 10:57:11,888 - basicLogger - INFO - Returned event report_order_status response (Id: beb6fa24-4042-486d-9f5f-440d3dcb4f32) with status 201
+2023-10-12 10:57:11,978 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 8ad293de-ad6f-414e-be94-3066f00a01bf
+2023-10-12 10:57:11,982 - basicLogger - INFO - Received event report_order_status request with a trace id of 1a6e57e2-304f-4b3a-a64c-990175aabba5
+2023-10-12 10:57:11,985 - basicLogger - INFO - Returned event report_order_status response (Id: 1a6e57e2-304f-4b3a-a64c-990175aabba5) with status 201
+2023-10-12 10:57:12,054 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 05022cdc-23cf-44e5-b254-d3e5788bc4ed
+2023-10-12 10:57:12,062 - basicLogger - INFO - Received event report_order_status request with a trace id of 78d3ac37-ca82-4107-941b-e2b25437d340
+2023-10-12 10:57:12,067 - basicLogger - INFO - Returned event report_order_status response (Id: 78d3ac37-ca82-4107-941b-e2b25437d340) with status 201
+2023-10-12 10:57:12,166 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 769210c7-f3a5-449a-91ec-364b7fa518e8
+2023-10-12 10:57:12,172 - basicLogger - INFO - Received event report_order_status request with a trace id of 6f9f7c97-6853-4c09-aea9-868cdec00f25
+2023-10-12 10:57:12,174 - basicLogger - INFO - Returned event report_order_status response (Id: 6f9f7c97-6853-4c09-aea9-868cdec00f25) with status 201
+2023-10-12 10:57:12,253 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 50503d99-e023-4887-8bec-1accac632227
+2023-10-12 10:57:12,258 - basicLogger - INFO - Received event report_order_status request with a trace id of 890656aa-d430-4c2b-a11e-074d64c58cc5
+2023-10-12 10:57:12,261 - basicLogger - INFO - Returned event report_order_status response (Id: 890656aa-d430-4c2b-a11e-074d64c58cc5) with status 201
+2023-10-12 10:57:12,359 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 708fdca4-37d3-4328-bf9e-aabb3f9d57b8
+2023-10-12 10:57:12,363 - basicLogger - INFO - Received event report_order_status request with a trace id of 7c18eaaa-546b-458a-9052-7b6a8c29d08a
+2023-10-12 10:57:12,367 - basicLogger - INFO - Returned event report_order_status response (Id: 7c18eaaa-546b-458a-9052-7b6a8c29d08a) with status 201
+2023-10-12 10:57:12,445 - basicLogger - DEBUG - Received event report_order_status request with a trace id of cedbd271-dedf-4e26-990e-b6484efdd9c1
+2023-10-12 10:57:12,454 - basicLogger - INFO - Received event report_order_status request with a trace id of 87022443-7ef9-4a88-948c-b82ab44c141f
+2023-10-12 10:57:12,454 - basicLogger - INFO - Returned event report_order_status response (Id: 87022443-7ef9-4a88-948c-b82ab44c141f) with status 201
+2023-10-12 10:57:13,633 - basicLogger - INFO - Received event reportETA request with a trace id of 7b252c89-660a-4843-ab0f-a4586e20d463
+2023-10-12 10:57:13,635 - basicLogger - INFO - Returned event reportETA response (Id: 7b252c89-660a-4843-ab0f-a4586e20d463) with status 404
+2023-10-12 10:57:13,719 - basicLogger - INFO - Received event reportETA request with a trace id of dd3f5b95-4f9e-4618-97a0-97a121010cfb
+2023-10-12 10:57:13,721 - basicLogger - INFO - Returned event reportETA response (Id: dd3f5b95-4f9e-4618-97a0-97a121010cfb) with status 404
+2023-10-12 10:57:13,816 - basicLogger - INFO - Received event reportETA request with a trace id of 5b62cbe9-7e03-45f6-ad22-ba743b0f86c0
+2023-10-12 10:57:13,818 - basicLogger - INFO - Returned event reportETA response (Id: 5b62cbe9-7e03-45f6-ad22-ba743b0f86c0) with status 404
+2023-10-12 10:57:13,922 - basicLogger - INFO - Received event reportETA request with a trace id of 1e7ae7aa-7ce9-4251-9dc5-2388b78a18db
+2023-10-12 10:57:13,924 - basicLogger - INFO - Returned event reportETA response (Id: 1e7ae7aa-7ce9-4251-9dc5-2388b78a18db) with status 404
+2023-10-12 10:57:14,029 - basicLogger - INFO - Received event reportETA request with a trace id of 55062cc9-50ef-4494-8051-acd421b60831
+2023-10-12 10:57:14,029 - basicLogger - INFO - Returned event reportETA response (Id: 55062cc9-50ef-4494-8051-acd421b60831) with status 404
+2023-10-12 10:57:14,130 - basicLogger - INFO - Received event reportETA request with a trace id of 7ee9088e-95d0-42c3-8e69-4a2b79bb5edd
+2023-10-12 10:57:14,131 - basicLogger - INFO - Returned event reportETA response (Id: 7ee9088e-95d0-42c3-8e69-4a2b79bb5edd) with status 404
+2023-10-12 10:57:14,223 - basicLogger - INFO - Received event reportETA request with a trace id of 6e5445d9-45bc-4726-88dd-25c6aa214198
+2023-10-12 10:57:14,223 - basicLogger - INFO - Returned event reportETA response (Id: 6e5445d9-45bc-4726-88dd-25c6aa214198) with status 404
+2023-10-12 10:57:14,311 - basicLogger - INFO - Received event reportETA request with a trace id of 6d00b1da-03d0-4163-83b7-305dc506f196
+2023-10-12 10:57:14,313 - basicLogger - INFO - Returned event reportETA response (Id: 6d00b1da-03d0-4163-83b7-305dc506f196) with status 404
+2023-10-12 10:57:14,398 - basicLogger - INFO - Received event reportETA request with a trace id of 82b1a8d2-c0d4-433e-9114-d61750edca13
+2023-10-12 10:57:14,398 - basicLogger - INFO - Returned event reportETA response (Id: 82b1a8d2-c0d4-433e-9114-d61750edca13) with status 404
+2023-10-12 10:57:14,519 - basicLogger - INFO - Received event reportETA request with a trace id of be1af199-4c2e-4e55-8c04-2a92ad5ee2ab
+2023-10-12 10:57:14,519 - basicLogger - INFO - Returned event reportETA response (Id: be1af199-4c2e-4e55-8c04-2a92ad5ee2ab) with status 404

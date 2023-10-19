@@ -1,0 +1,172 @@
+openapi: 3.0.0
+info:
+  description: This API receives real-time event data from a food delivery service
+  version: "1.0.0"
+  title: Food delivery
+  contact:
+    email: rshikder@my.bcit.ca
+
+tags:
+  - name: Customer_Order
+    description: Any operation that involves or can affect the status or availability of an order
+
+  - name: Proximity
+    description: Any operation that deals with the location status of your order
+
+paths:
+  /order/status:
+    post:
+      tags:
+        - Customer_Order
+      summary: Reports a customer's order
+      operationId: app.report_order_status
+      description: Adds customer's order
+      responses:
+        '201':
+          description: 'Order received!'
+        '400':
+          description: 'Invalid input'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object  # Define OrderReading as an object here
+              required:
+                - OrderID
+                - CustomerAdress
+                - TimeStamp
+                - OrderType
+                - RestaurantID
+                - Tip
+                - Customer_PhoneNumber
+              properties:
+                OrderID:
+                  type: string
+                  format: uuid
+                  example: '7834fhasd7fadsbi'
+                CustomerAdress:
+                  type: string
+                  example: '123 elm st'
+                TimeStamp:
+                  type: string
+                  format: date-time
+                  example: '2017-07-21T17:32:28Z'
+                OrderType:
+                  type: string  # Define OrderType as a string here
+                  example: 'Delivery'
+                RestaurantID:
+                  type: string
+                  example: 'cvasd8-d8caj-d87r'
+                Tip:
+                  type: integer
+                  example: 5
+                Customer_PhoneNumber:
+                  type: integer
+                  example: 7784235023
+
+  /order/ETA:
+    post:
+      tags:
+        - Proximity
+      summary: Reports the expected time of arrival
+      operationId: app.reportETA
+      description: Calculates the ETA for customer order
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderETA'
+      responses:
+        '201':
+          description: ETA calculated successfully
+        '400':
+          description: Invalid input
+    /order/status/{orderId}:
+    get:
+      tags:
+        - Customer_Order
+      summary: Retrieves a customer's order status
+      operationId: app.retrieve_order_status
+      parameters:
+        - name: orderId
+          in: path
+          required: true
+          description: Unique ID of the order
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: 'Order details retrieved successfully!'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderReading'
+        '404':
+          description: 'Order not found'
+
+  /order/ETA/{orderId}:
+    get:
+      tags:
+        - Proximity
+      summary: Retrieves the expected time of arrival for a specific order
+      operationId: app.retrieveETA
+      parameters:
+        - name: orderId
+          in: path
+          required: true
+          description: Unique ID of the order
+          schema:
+            type: number
+      responses:
+        '200':
+          description: 'ETA details retrieved successfully!'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderETA'
+        '404':
+          description: 'Order not found'
+
+components:
+  schemas:
+    OrderETA:
+      required:
+        - OrderID
+        - CustomerLatitude
+        - CustomerLongitude
+        - RestaurantLatitude
+        - RestaurantLongitude
+        - DriverLatitude
+        - DriverLongitude
+        - OrderType
+        - Distance
+      properties:
+        OrderID:
+          type: number
+          example: '732949'
+        CustomerLatitude:
+          type: number
+          example: 48.12345  # Example latitude coordinate
+        CustomerLongitude:
+          type: number
+          example: -123.67890  # Example longitude coordinate
+        RestaurantLatitude:
+          type: number
+          example: 49.54321
+        RestaurantLongitude:
+          type: number
+          example: -122.98765
+        DriverLatitude:
+          type: number
+          example: 34.56789
+        DriverLongitude:
+          type: number
+          example: -109.12345
+        OrderType:
+          type: string  # Define OrderType as a string here
+          example: 'Delivery'
+        Distance:
+          type: number
+          example: 5.7  # Distance in kilometers
+      type: object
