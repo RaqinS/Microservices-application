@@ -19,7 +19,6 @@ CREATE TABLE Order_status (
     RestaurantID VARCHAR(50) NOT NULL,
     Tip INT,
     Customer_PhoneNumber VARCHAR(50) NOT NULL,
-    date_created VARCHAR(100) NOT NULL,
     CONSTRAINT Order_status_pk PRIMARY KEY(OrderID)              
 )
 ''')
@@ -37,7 +36,6 @@ CREATE TABLE OrderETA (
     OrderType VARCHAR(50) NOT NULL,
     Distance INT NOT NULL,
     TimeStamp VARCHAR(100) NOT NULL,
-    date_created VARCHAR(100) NOT NULL,
     CONSTRAINT Order_status_pk PRIMARY KEY(OrderID)              
 )
 ''')

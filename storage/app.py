@@ -44,7 +44,8 @@ def report_order_status(body):
         TimeStamp=body['TimeStamp'],
         RestaurantID=body['RestaurantID'],
         OrderType=body['OrderType'],
-        Customer_PhoneNumber=body['Customer_PhoneNumber']
+        Customer_PhoneNumber=body['Customer_PhoneNumber'],
+        Tip=body['Tip']
     )
     session.add(orders)
 
@@ -92,7 +93,7 @@ def get_order_status(timestamp):
     results_list = []
     for order in orders:
         logger.debug(order.__dict__)
-        results_list.append(order.TimeStamp)
+        results_list.append(order.to_dict())
     session.close()
 
     logger.info(f"Query for orders after {timestamp} returns {len(results_list)} results")
@@ -100,7 +101,7 @@ def get_order_status(timestamp):
     return results_list, 200
 
 
-def get_order_ETA():
+def get_order_ETA(timestamp):
     timestamp = request.args.get('timestamp')
 
     session = DB_SESSION()
@@ -111,6 +112,7 @@ def get_order_ETA():
 
     for eta in etas:
         results_list.append({
+            "timeStamp":eta.TimeStamp,
             "OrderID": eta.OrderID,
             "CustomerLocation": {
                 "Latitude": eta.CustomerLatitude,
@@ -130,7 +132,7 @@ def get_order_ETA():
 
     logger.info(f"Query for ETAs after {timestamp} returns {len(results_list)} results")
 
-    return jsonify(results_list), 200
+    return results_list, 200
 
 
 

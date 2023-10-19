@@ -15,14 +15,12 @@ class OrderETA(Base):
     OrderType = Column(String(50), nullable=False)
     DriverLongitude = Column(Integer, nullable=False)
     Distance = Column(Integer, nullable=False)
-    date_created = Column(DateTime, nullable=False)
     TimeStamp = Column(String(100), nullable=False)
 
     def __init__(self, OrderID,CustomerLatitude,CustomerLongitude,RestaurantLatitude,RestaurantLongitude,DriverLatitude,DriverLongitude,OrderType,Distance,TimeStamp):
         self.OrderID = OrderID
         self.CustomerLatitude = CustomerLatitude
         self.CustomerLongitude = CustomerLongitude
-        self.date_created = datetime.datetime.now() 
         self.DriverLatitude = DriverLatitude
         self.DriverLongitude = DriverLongitude
         self.Distance = Distance
@@ -39,7 +37,6 @@ class OrderETA(Base):
         dict['DriverLongitude'] = self.DriverLongitude
         dict['RestaurantLatitude'] = self.RestaurantLatitude
         dict['RestaurantLongitude'] = self.RestaurantLongitude
-        dict['date_created'] = self.date_created
         dict['Distance'] = self.Distance
         dict['OrderType'] = self.OrderType
         dict['TimeStamp'] = self.TimeStamp

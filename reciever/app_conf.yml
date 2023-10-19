@@ -2,4 +2,4 @@ version: 1
 eventstore1:
   url: http://localhost:8090/order/status
 eventstore2:
-  url: http://localhost:8090/order/OrderETA
+  url: http://localhost:8090/order/ETA
