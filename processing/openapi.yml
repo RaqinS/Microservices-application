@@ -1,0 +1,55 @@
+openapi: 3.0.0
+info:
+  description: This API provides event stats
+  version: "1.0.0"
+  title: Stats API
+  contact:
+    email: raqin2003@gmail.com
+
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets Events
+      responses:
+        '200':
+          description: Successfully returned a list of events
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '404':
+          description: Statistics do not exist
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    ReadingStats:
+      required:
+      - furthest_distance
+      - highest_tip
+      - num_orders
+      - num_deliveries
+      properties:
+        furthest_distance:
+          type: integer
+          example: 500
+        highest_tip:
+          type: integer
+          example: 20
+        num_orders:
+          type: integer
+          example: 100
+        num_customers:
+          type: integer
+          example: 53
+      type: object

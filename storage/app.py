@@ -88,9 +88,9 @@ def reportETA(body):
 
 def get_order_status(timestamp):
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f%z")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
     
-    readings = session.query(Order_status).filter(Order_status.date_created >=
+    readings = session.query(Order_status).filter(Order_status.date_created <=
                                                    timestamp_datetime)
     
     results_list = []
@@ -108,16 +108,16 @@ def get_order_status(timestamp):
 def get_order_ETA(timestamp):
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f%z")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
-    readings = session.query(OrderETA).filter(OrderETA.date_created >=
+    readings = session.query(OrderETA).filter(OrderETA.date_created <=
                                                    timestamp_datetime)
     results_list = []
 
     for reading in readings:
         result = reading.to_dict()
         results_list.append(result)
-        logger.debug("Retrieved: %s" % result)
+            
 
     session.close()
 

@@ -33,6 +33,7 @@ class OrderETA(Base):
         self.timestamp = timestamp
         self.date_created = datetime.datetime.now()
         self.trace_id = trace_id
+    
     def to_dict(self):
         dict = {}
         dict['id'] = self.id
@@ -48,3 +49,4 @@ class OrderETA(Base):
         dict['timestamp'] = self.timestamp
         dict['date_created'] = self.date_created
         dict['trace_id'] = self.trace_id
+        return dict

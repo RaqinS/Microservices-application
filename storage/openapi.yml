@@ -91,8 +91,6 @@ paths:
           content:
             application/json:
               schema:
-                type: array
-                items:
                   $ref: '#/components/schemas/OrderETA'
         '400':
           description: Invalid input
@@ -184,4 +182,3 @@ components:
           type: string
           format: uuid
           example: d290f1ee-6c54-4b01-90y6-d701748f0851
-      type: object
