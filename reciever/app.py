@@ -27,7 +27,7 @@ logger = logging.getLogger('basicLogger')
 
 def report_order_status(body):
     
-    trace_id = uuid.uuid4()  # Can use uuid, random, datetime
+    trace_id = uuid.uuid4() 
     body["trace_id"] = str(trace_id)
 
     mysql_endpoint = app_config['eventstore1']['url']

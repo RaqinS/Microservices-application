@@ -41,11 +41,12 @@ def report_order_status(body):
     orders = Order_status(
         OrderID=body['OrderID'],
         CustomerAdress=body['CustomerAdress'],
-        TimeStamp=body['TimeStamp'],
+        timestamp=body['timestamp'],
         RestaurantID=body['RestaurantID'],
         OrderType=body['OrderType'],
         Customer_PhoneNumber=body['Customer_PhoneNumber'],
-        Tip=body['Tip']
+        Tip=body['Tip'],
+        trace_id=body['trace_id']
     )
     session.add(orders)
 
@@ -71,7 +72,8 @@ def reportETA(body):
         RestaurantLongitude=body['RestaurantLongitude'],
         Distance=body['Distance'],
         OrderType=body['OrderType'],
-        TimeStamp=body['TimeStamp']
+        timestamp=body['timestamp'],
+        trace_id=body['trace_id']
     )
     session.add(ETA)
 
@@ -88,13 +90,15 @@ def get_order_status(timestamp):
     session = DB_SESSION()
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f%z")
     
-    orders = session.query(Order_status).filter(Order_status.TimeStamp >= timestamp_datetime).all()
+    readings = session.query(Order_status).filter(Order_status.date_created >=
+                                                   timestamp_datetime)
     
     results_list = []
-    for order in orders:
-        logger.debug(order.__dict__)
-        results_list.append(order.to_dict())
-    session.close()
+    
+    for reading in readings:
+        result = reading.to_dict()
+        results_list.append(result)
+        logger.debug("Retrieved: %s" % result)
 
     logger.info(f"Query for orders after {timestamp} returns {len(results_list)} results")
     
@@ -102,31 +106,18 @@ def get_order_status(timestamp):
 
 
 def get_order_ETA(timestamp):
-    timestamp = request.args.get('timestamp')
 
     session = DB_SESSION()
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f%z")
 
-    etas = session.query(OrderETA).filter(OrderETA.TimeStamp >= timestamp_datetime).all()
+    readings = session.query(OrderETA).filter(OrderETA.date_created >=
+                                                   timestamp_datetime)
     results_list = []
 
-    for eta in etas:
-        results_list.append({
-            "timeStamp":eta.TimeStamp,
-            "OrderID": eta.OrderID,
-            "CustomerLocation": {
-                "Latitude": eta.CustomerLatitude,
-                "Longitude": eta.CustomerLongitude,
-            },
-            "DriverLocation": {
-                "Latitude": eta.DriverLatitude,
-                "Longitude": eta.DriverLongitude,
-            },
-            "RestaurantLocation": {
-                "Latitude": eta.RestaurantLatitude,
-                "Longitude": eta.RestaurantLongitude,
-            }
-        })
+    for reading in readings:
+        result = reading.to_dict()
+        results_list.append(result)
+        logger.debug("Retrieved: %s" % result)
 
     session.close()
 

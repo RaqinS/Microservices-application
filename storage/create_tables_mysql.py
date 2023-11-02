@@ -12,21 +12,25 @@ db_cursor = db_conn.cursor()
 # Create the 'Order_status' table with trace_id
 db_cursor.execute('''
 CREATE TABLE Order_status (
+    id INT NOT NULL AUTO_INCREMENT,
     OrderID VARCHAR(50) NOT NULL,
     CustomerAdress VARCHAR(100) NOT NULL,
-    TimeStamp VARCHAR(100) NOT NULL,
+    timestamp VARCHAR(100) NOT NULL,
     OrderType VARCHAR(50) NOT NULL,
     RestaurantID VARCHAR(50) NOT NULL,
     Tip INT,
+    date_created VARCHAR(100) NOT NULL,
     Customer_PhoneNumber VARCHAR(50) NOT NULL,
-    CONSTRAINT Order_status_pk PRIMARY KEY(OrderID)              
+    trace_id VARCHAR(250) NOT NULL,
+    CONSTRAINT Order_status_pk PRIMARY KEY(id)              
 )
 ''')
 
 # Create the 'OrderETA' table with trace_id
 db_cursor.execute('''
 CREATE TABLE OrderETA (
-    OrderID INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
+    OrderID INT NOT NULL,
     CustomerLatitude INT NOT NULL,
     CustomerLongitude INT NOT NULL,
     DriverLatitude INT NOT NULL,
@@ -35,8 +39,10 @@ CREATE TABLE OrderETA (
     RestaurantLongitude INT NOT NULL,
     OrderType VARCHAR(50) NOT NULL,
     Distance INT NOT NULL,
-    TimeStamp VARCHAR(100) NOT NULL,
-    CONSTRAINT Order_status_pk PRIMARY KEY(OrderID)              
+    date_created VARCHAR(100) NOT NULL,
+    timestamp VARCHAR(100) NOT NULL,
+    trace_id VARCHAR(250) NOT NULL,
+    CONSTRAINT Order_status_pk PRIMARY KEY(id)              
 )
 ''')
 

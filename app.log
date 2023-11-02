@@ -596,3 +596,97 @@
 2023-10-18 19:51:38,098 - basicLogger - DEBUG - Received event report_order_status request with a trace id of ab9acece-9242-40fe-8247-f5b33113f4f4
 2023-10-18 19:54:28,577 - basicLogger - DEBUG - {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x000001D80DA8BD10>, 'CustomerAdress': '123 elm st', 'OrderType': 'Delivery', 'Tip': 5, 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderID': '7834fhasd7fadsbi', 'TimeStamp': '2017-07-21T17:32:28Z', 'Customer_PhoneNumber': '7784235023'}
 2023-10-18 19:54:28,582 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 15:38:50,179 - basicLogger - INFO - Received event report_order_status request with a trace id of dc1e8725-2610-470b-8750-04ec00a018cf
+2023-11-01 15:38:50,181 - basicLogger - INFO - Returned event report_order_status response (Id: dc1e8725-2610-470b-8750-04ec00a018cf) with status 500
+2023-11-01 15:39:45,917 - basicLogger - INFO - Received event reportETA request with a trace id of 2cda9f41-2bec-490a-aace-46939ccd89b0
+2023-11-01 15:39:45,919 - basicLogger - INFO - Returned event reportETA response (Id: 2cda9f41-2bec-490a-aace-46939ccd89b0) with status 500
+2023-11-01 15:41:49,608 - basicLogger - INFO - Received event report_order_status request with a trace id of bbedc7c9-8854-4e92-82cf-d7e7b55a9c1e
+2023-11-01 15:41:49,609 - basicLogger - INFO - Returned event report_order_status response (Id: bbedc7c9-8854-4e92-82cf-d7e7b55a9c1e) with status 500
+2023-11-01 15:41:58,342 - basicLogger - INFO - Received event reportETA request with a trace id of ab75f136-6f31-4495-9a80-2216dbd95860
+2023-11-01 15:41:58,343 - basicLogger - INFO - Returned event reportETA response (Id: ab75f136-6f31-4495-9a80-2216dbd95860) with status 500
+2023-11-01 16:01:41,710 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 523dac91-9988-4343-892f-450324b732c3
+2023-11-01 16:04:44,975 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 3bf50acd-7632-408a-bb77-073ea0d1c058
+2023-11-01 16:04:51,841 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 16:05:27,061 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 16:14:59,505 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 3815ba1b-823b-46ff-9a77-8a9167ac519b
+2023-11-01 16:25:01,383 - basicLogger - DEBUG - Received event report_order_status request with a trace id of ecf08395-fe5f-44ea-8d9f-f7abc35f9b79
+2023-11-01 16:25:09,204 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 626c2310-8f10-4574-8d3e-03a36246b458
+2023-11-01 16:27:46,765 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 16:27:54,049 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 16:29:25,866 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 0bd3777a-719d-4abd-85d3-4c4a7acf3db2
+2023-11-01 16:29:28,729 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-11-01 16:30:45,652 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 16:37:42,932 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 16:42:27,113 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 17:07:26,057 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:07:35,303 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 17:10:25,672 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:10:44,736 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:13:14,320 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:13:21,605 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:15:34,292 - basicLogger - DEBUG - Received event report_order_status request with a trace id of f0b5f79d-b4e8-4b15-877e-50e98b7ca19b
+2023-11-01 17:15:44,283 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:16:05,132 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:16:07,512 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:23:09,450 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:24:35,240 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:27:31,248 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:27:41,823 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:27:55,766 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 91c99b46-6d13-4502-8393-d3e3352a1327
+2023-11-01 17:28:04,366 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-01 17:55:03,157 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 17:55:03,158 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 17:55:03,159 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 17:55:03,160 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 3 results
+2023-11-01 17:55:12,403 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 17:55:12,404 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 17:55:12,406 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-11-01 18:20:48,912 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 833c0a90-8b32-4ad4-ba20-a28deaeeba1d
+2023-11-01 18:21:10,835 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:21:10,836 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 18:21:30,433 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 6fc707c2-fdb0-4d74-bc7e-8e4f5ef09b40
+2023-11-01 18:21:31,018 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 649d04a2-f0bf-41a5-8272-c2c7ae102efe
+2023-11-01 18:21:34,646 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:21:34,647 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:21:34,648 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:21:34,648 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 3 results
+2023-11-01 18:22:15,571 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 1af9d61d-66c2-48bb-9013-1534f8618387
+2023-11-01 18:22:26,079 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 0e1ca8e2-84a2-4983-87c5-014ed1aa94c8
+2023-11-01 18:22:29,261 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 6d00d4e0-3ac2-4e41-9569-e8083d2f5389
+2023-11-01 18:22:35,060 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:22:35,062 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:22:35,063 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-11-01 18:31:03,878 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:31:03,879 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:31:03,880 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-11-01 18:42:25,929 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:42:25,930 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:42:25,930 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:42:25,930 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:42:25,931 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 4 results
+2023-11-01 18:42:32,605 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:42:32,605 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:42:32,606 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-11-01 18:45:19,454 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:45:19,455 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:45:19,456 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 2 results
+2023-11-01 18:52:36,971 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 84b0a299-bb3e-41bc-b5e7-391d4d308f03
+2023-11-01 18:52:42,872 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:52:42,873 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 18:52:50,889 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 2192995c-6c01-4012-920f-03c535b94e69
+2023-11-01 18:52:57,389 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:52:57,396 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 18:56:38,936 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:56:38,937 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 18:57:13,394 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-01 18:57:13,395 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 18:59:48,105 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-01 18:59:48,106 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 18:59:54,151 - basicLogger - DEBUG - Received event report_order_status request with a trace id of 05994ce3-7809-416d-906b-cdb9057b2239
+2023-11-01 18:59:59,188 - basicLogger - DEBUG - Retrieved: None
+2023-11-01 18:59:59,189 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 1 results
+2023-11-01 19:22:40,675 - basicLogger - DEBUG - Received event report_order_status request with a trace id of ad1a274f-8cf6-44af-85bc-3fc2c1ebcc79
+2023-11-01 19:22:49,135 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-01 19:22:49,136 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-01 19:22:49,136 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-01 19:22:49,136 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 3 results

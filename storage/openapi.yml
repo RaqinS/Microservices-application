@@ -102,23 +102,23 @@ components:
       required:
         - OrderID
         - CustomerAdress
-        - TimeStamp
+        - timestamp
         - OrderType
         - RestaurantID
         - Tip
         - Customer_PhoneNumber
+        - trace_id
       properties:
         OrderID:
           type: string
-          format: uuid
           example: '7834fhasd7fadsbi'
         CustomerAdress:
           type: string
           example: '123 elm st'
-        TimeStamp:
+        timestamp:
           type: string
           format: date-time
-          example: '2017-07-21T17:32:28Z'
+          example: 2016-08-29T09:12:33.001Z
         OrderType:
           type: string
           example: 'Delivery'
@@ -131,6 +131,10 @@ components:
         Customer_PhoneNumber:
           type: integer
           example: 7784235023
+        trace_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
     OrderETA:
       required:
         - OrderID
@@ -142,37 +146,42 @@ components:
         - DriverLongitude
         - OrderType
         - Distance
-        - TimeStamp
+        - timestamp
+        - trace_id
       properties:
         OrderID:
-          type: number
-          example: '732949'
+          type: integer
+          example: 732949
         CustomerLatitude:
-          type: number
-          example: 48.12345
+          type: integer
+          example: 48
         CustomerLongitude:
-          type: number
-          example: -123.67890
+          type: integer
+          example: -123
         RestaurantLatitude:
-          type: number
-          example: 49.54321
+          type: integer
+          example: 49
         RestaurantLongitude:
-          type: number
-          example: -122.98765
+          type: integer
+          example: -123
         DriverLatitude:
-          type: number
-          example: 34.56789
+          type: integer
+          example: 34
         DriverLongitude:
-          type: number
-          example: -109.12345
+          type: integer
+          example: -109
         OrderType:
           type: string
           example: 'Delivery'
         Distance:
-          type: number
-          example: 5.7
-        TimeStamp:
+          type: integer
+          example: 6
+        timestamp:
           type: string
           format: date-time
-          example: '2017-07-21T17:32:28Z'
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90y6-d701748f0851
       type: object

@@ -1,8 +1,4 @@
 version: 1
-eventstore1:
-  url: http://localhost:8080/order/status
-eventstore2:
-  url: http://localhost:8080/order/OrderETA
 datastore:
   user: root
   password: Ninja462
