@@ -3453,3 +3453,257 @@
 2023-11-02 02:59:40,987 - basicLogger - INFO - Processed 3 BP readings
 2023-11-02 02:59:43,022 - basicLogger - INFO - Done Periodic Processing
 2023-11-02 02:59:43,948 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:04:36,055 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:04:41,070 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:04:46,061 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:04:51,066 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:04:56,063 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:01,067 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:06,058 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:11,061 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:16,068 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:21,064 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:26,064 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:31,055 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:36,065 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:41,064 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:43,129 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:43,130 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:43,130 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:43,130 - basicLogger - INFO - Query for orders after 2023-11-02T02:59:43Z returns 3 results
+2023-11-02 03:05:43,132 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:43,133 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:43,134 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:43,134 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:05:45,163 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:05:46,058 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:48,099 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:48,100 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:48,100 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:48,101 - basicLogger - INFO - Query for orders after 2023-11-02T03:05:45Z returns 3 results
+2023-11-02 03:05:48,104 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:48,105 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:48,106 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:48,107 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:05:50,141 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:05:51,068 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:53,109 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:53,109 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:53,111 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:53,112 - basicLogger - INFO - Query for orders after 2023-11-02T03:05:50Z returns 3 results
+2023-11-02 03:05:53,117 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:53,119 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:53,120 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:53,120 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:05:55,161 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:05:56,060 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:05:58,110 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:58,111 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:58,112 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:05:58,112 - basicLogger - INFO - Query for orders after 2023-11-02T03:05:55Z returns 3 results
+2023-11-02 03:05:58,114 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:58,114 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:58,114 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:05:58,115 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:00,153 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:01,061 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:03,116 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:03,117 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:03,119 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:03,121 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:00Z returns 3 results
+2023-11-02 03:06:03,125 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:03,128 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:03,128 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:03,129 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:05,171 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:06,065 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:08,116 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:08,117 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:08,118 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:08,119 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:05Z returns 3 results
+2023-11-02 03:06:08,122 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:08,122 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:08,123 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:08,124 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:10,149 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:11,055 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:13,085 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:13,086 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:13,087 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:13,088 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:10Z returns 3 results
+2023-11-02 03:06:13,090 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:13,091 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:13,091 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:13,092 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:15,132 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:16,062 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:18,085 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:18,087 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:18,088 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:18,090 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:15Z returns 3 results
+2023-11-02 03:06:18,095 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:18,095 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:18,096 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:18,097 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:20,162 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:21,068 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:23,115 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:23,116 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:23,117 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:23,119 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:20Z returns 3 results
+2023-11-02 03:06:23,121 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:23,122 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:23,122 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:23,122 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:25,159 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:26,060 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:28,093 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:28,094 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:28,095 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:28,096 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:25Z returns 3 results
+2023-11-02 03:06:28,099 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:28,099 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:28,100 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:28,100 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:30,147 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:31,064 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:33,113 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:33,115 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:33,116 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:33,119 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:30Z returns 3 results
+2023-11-02 03:06:33,124 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:33,126 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:33,127 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:33,128 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:35,164 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:36,059 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:38,101 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:38,103 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:38,104 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:38,104 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:35Z returns 3 results
+2023-11-02 03:06:38,107 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:38,108 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:38,108 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:38,109 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:40,172 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:41,059 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:43,075 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:43,076 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:43,077 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:43,077 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:40Z returns 3 results
+2023-11-02 03:06:43,080 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:43,081 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:43,081 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:43,081 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:45,109 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:46,061 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:48,094 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:48,095 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:48,096 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:48,096 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:45Z returns 3 results
+2023-11-02 03:06:48,100 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:48,100 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:48,101 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:48,101 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:50,147 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:51,055 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:53,106 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:53,108 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:53,109 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:53,110 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:50Z returns 3 results
+2023-11-02 03:06:53,113 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:53,113 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:53,114 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:53,114 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:06:55,155 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:06:56,058 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:06:58,093 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:58,095 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:58,096 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:06:58,097 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:55Z returns 3 results
+2023-11-02 03:06:58,100 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:58,101 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:58,101 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:06:58,101 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:00,141 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:01,058 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:03,108 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:03,110 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:03,111 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:03,112 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:00Z returns 3 results
+2023-11-02 03:07:03,115 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:03,116 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:03,116 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:03,117 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:05,149 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:06,068 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:08,109 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:08,111 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:08,112 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:08,114 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:05Z returns 3 results
+2023-11-02 03:07:08,118 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:08,119 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:08,120 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:08,120 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:10,177 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:11,067 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:13,113 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:13,115 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:13,116 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:13,118 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:10Z returns 3 results
+2023-11-02 03:07:13,122 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:13,123 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:13,124 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:13,125 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:15,175 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:16,065 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:18,111 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:18,113 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:18,114 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:18,115 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:15Z returns 3 results
+2023-11-02 03:07:18,120 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:18,121 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:18,121 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:18,123 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:20,150 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:21,060 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:23,105 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:23,107 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:23,109 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:23,110 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:20Z returns 3 results
+2023-11-02 03:07:23,115 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:23,116 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:23,117 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:23,118 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:25,169 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:26,061 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:28,104 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:28,105 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:28,106 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:28,108 - basicLogger - INFO - Query for orders after 2023-11-02T03:06:40Z returns 3 results
+2023-11-02 03:07:28,111 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:28,112 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:28,113 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:28,113 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:30,143 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:31,069 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:33,113 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:33,115 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:33,116 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:33,117 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:30Z returns 3 results
+2023-11-02 03:07:33,120 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:33,121 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:33,121 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:33,122 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:35,164 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:36,057 - basicLogger - INFO - Start Periodic Processing
+2023-11-02 03:07:38,102 - basicLogger - DEBUG - Retrieved: {'id': 1, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:52:36.954841', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:38,103 - basicLogger - DEBUG - Retrieved: {'id': 2, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 18:59:54.141678', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:38,104 - basicLogger - DEBUG - Retrieved: {'id': 3, 'OrderID': '7834fhasd7fadsbi', 'CustomerAdress': '123 elm st', 'timestamp': '2016-08-29T09:12:33.001000+00:00', 'RestaurantID': 'cvasd8-d8caj-d87r', 'OrderType': 'Delivery', 'Tip': 5, 'date_created': '2023-11-01 19:22:40.668803', 'trace_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851'}
+2023-11-02 03:07:38,105 - basicLogger - INFO - Query for orders after 2023-11-02T03:07:35Z returns 3 results
+2023-11-02 03:07:38,108 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:38,109 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:38,110 - basicLogger - DEBUG - Processed Order event with id of 7834fhasd7fadsbi
+2023-11-02 03:07:38,110 - basicLogger - INFO - Processed 3 Order_status readings
+2023-11-02 03:07:40,130 - basicLogger - INFO - Done Periodic Processing
+2023-11-02 03:07:41,065 - basicLogger - INFO - Start Periodic Processing

@@ -91,7 +91,7 @@ def populate_stats():
                 event["Distance"] > stats.get("furthest_distance", 0):
                 stats["furthest_distance"] = event["Distance"]
             elif "furthest_distance" not in stats.keys():
-                stats['highest_tip'] = event["tip"]
+                stats['furthest_distance'] = event["Distance"]
 
             logger.debug("Processed ETA event with id of %s" % event["trace_id"])
 
@@ -115,7 +115,7 @@ def get_latest_processing_stats():
         "furthest_distance": 0,
         "highest_tip": 0,
         "num_orders": 0,
-        "num_deliveries": 0,
+        "num_customers": 0,
         "last_updated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
     }
 
