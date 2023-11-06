@@ -2,9 +2,9 @@ import mysql.connector
 
 # Establish a connection to the MySQL database
 db_conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Ninja462",
+    host="ec2-3-133-144-150.us-east-2.compute.amazonaws.com",
+    user="user",
+    password="password",
     database="events"
 )
 db_cursor = db_conn.cursor()

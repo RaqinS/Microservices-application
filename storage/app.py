@@ -34,6 +34,8 @@ DB_ENGINE = create_engine(
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
+logger.info("Connecting to DB. Hostname: {}:{}, Port: {}".format(app_config['datastore']['hostname'], app_config['datastore']['port'], app_config['datastore']['db']))
+
 def report_order_status(body):
     trace_id = uuid.uuid4()
     session = DB_SESSION()

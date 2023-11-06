@@ -1,7 +1,7 @@
 version: 1
 datastore:
-  user: root
-  password: Ninja462
-  hostname: localhost
+  user: user
+  password: password
+  hostname: ec2-3-133-144-150.us-east-2.compute.amazonaws.com
   port: 3306
   db: events

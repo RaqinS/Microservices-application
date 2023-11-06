@@ -3707,3 +3707,7 @@
 2023-11-02 03:07:38,110 - basicLogger - INFO - Processed 3 Order_status readings
 2023-11-02 03:07:40,130 - basicLogger - INFO - Done Periodic Processing
 2023-11-02 03:07:41,065 - basicLogger - INFO - Start Periodic Processing
+2023-11-06 14:42:17,893 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-118-140-52.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-06 14:42:17,931 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-118-140-52.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-06 15:11:15,170 - basicLogger - INFO - Connecting to DB. Hostname: ec2-3-133-144-150.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-06 15:11:15,204 - basicLogger - INFO - Connecting to DB. Hostname: ec2-3-133-144-150.us-east-2.compute.amazonaws.com:3306, Port: events
