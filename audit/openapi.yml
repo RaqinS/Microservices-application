@@ -1,0 +1,175 @@
+openapi: 3.0.0
+info:
+  title: Microservices Application API
+  version: 1.0.0
+  description: API for the Microservices Application
+servers:
+  - url: http://localhost:8090
+    description: Development server
+
+paths:
+  /order/status:
+    get:
+      summary: Gets order status from history
+      operationId: get_order_status
+      parameters:
+        - name: timestamp
+          in: query
+          description: Timestamp to filter order status events
+          required: true
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successfully returned order status events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OrderStatusEvent'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+
+  /order/ETA:
+    get:
+      summary: Gets order ETA from history
+      operationId: get_order_ETA
+      parameters:
+        - name: timestamp
+          in: query
+          description: Timestamp to filter order ETA events
+          required: true
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Successfully returned order ETA events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OrderETAEvent'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+
+components:
+  schemas:
+    OrderStatusEvent:
+      type: object
+      required:
+        - OrderID
+        - CustomerAdress
+        - timestamp
+        - RestaurantID
+        - OrderType
+        - Customer_PhoneNumber
+        - Tip
+        - trace_id
+      properties:
+        OrderID:
+          type: string
+          example: "123456"
+        CustomerAdress:
+          type: string
+          example: "123 Main St"
+        timestamp:
+          type: string
+          format: date-time
+          example: "2023-11-06T09:12:33.001Z"
+        RestaurantID:
+          type: string
+          example: "R12345"
+        OrderType:
+          type: string
+          example: "Delivery"
+        Customer_PhoneNumber:
+          type: string
+          example: "+1234567890"
+        Tip:
+          type: number
+          format: float
+          example: 5.00
+        trace_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+
+    OrderETAEvent:
+      type: object
+      required:
+        - OrderID
+        - CustomerLatitude
+        - CustomerLongitude
+        - DriverLatitude
+        - DriverLongitude
+        - RestaurantLatitude
+        - RestaurantLongitude
+        - Distance
+        - OrderType
+        - timestamp
+        - trace_id
+      properties:
+        OrderID:
+          type: string
+          example: "123456"
+        CustomerLatitude:
+          type: number
+          format: double
+          example: 40.712776
+        CustomerLongitude:
+          type: number
+          format: double
+          example: -74.005974
+        DriverLatitude:
+          type: number
+          format: double
+          example: 40.712776
+        DriverLongitude:
+          type: number
+          format: double
+          example: -74.005974
+        RestaurantLatitude:
+          type: number
+          format: double
+          example: 40.712776
+        RestaurantLongitude:
+          type: number
+          format: double
+          example: -74.005974
+        Distance:
+          type: number
+          format: double
+          example: 5.5
+        OrderType:
+          type: string
+          example: "Delivery"
+        timestamp:
+          type: string
+          format: date-time
+          example: "2023-11-06T09:12:33.001Z"
+        trace_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"

@@ -3,3 +3,7 @@ eventstore1:
   url: http://localhost:8090/order/status
 eventstore2:
   url: http://localhost:8090/order/ETA
+events:
+  hostname: ec2-3-133-144-150.us-east-2.compute.amazonaws.com
+  port: 9092
+  topic: events
