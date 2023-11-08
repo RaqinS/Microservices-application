@@ -14,23 +14,7 @@ tags:
     description: Any operation that deals with the location status of your order
 
 paths:
-  /order/status:
-    post:
-      tags:
-        - Customer_Order
-      summary: Reports a customer's order
-      operationId: app.report_order_status
-      description: Adds customer's order
-      responses:
-        '201':
-          description: 'Order received!'
-        '400':
-          description: 'Invalid input'
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/OrderStatus'
+  /order/orderstatus:
     get:
       tags:
         - Customer_Order
@@ -40,6 +24,7 @@ paths:
         - name: timestamp
           in: query
           description: Retrieve orders added after this timestamp
+          required: true
           schema:
             type: string
             format: date-time
@@ -54,23 +39,7 @@ paths:
         '400':
           description: Invalid input
 
-  /order/ETA:
-    post:
-      tags:
-        - Proximity
-      summary: Reports the expected time of arrival
-      operationId: app.reportETA
-      description: Calculates the ETA for customer order
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/OrderETA'
-      responses:
-        '201':
-          description: ETA calculated successfully
-        '400':
-          description: Invalid input
+  /order/OrderETA:
     get:
       tags:
         - Proximity
@@ -80,7 +49,7 @@ paths:
         - name: timestamp
           in: query
           description: Retrieve locations added after this timestamp
-          required: false
+          required: true
           schema:
             type: string
             format: date-time
@@ -91,9 +60,11 @@ paths:
           content:
             application/json:
               schema:
-                  $ref: '#/components/schemas/OrderETA'
+                $ref: '#/components/schemas/OrderETA'
         '400':
           description: Invalid input
+
+
 components:
   schemas:
     OrderStatus:

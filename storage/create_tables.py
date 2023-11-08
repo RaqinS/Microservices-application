@@ -12,7 +12,7 @@ c.execute('''
           CREATE TABLE Order_status
           (OrderID VARCHAR(50) PRIMARY KEY,
           CustomerAdress VARCHAR(100) NOT NULL,
-          TimeStamp VARCHAR(100) NOT NULL,
+          timestamp VARCHAR(100) NOT NULL,
           OrderType VARCHAR(50) NOT NULL,
           RestaurantID VARCHAR(50) NOT NULL,
           Tip INTEGER,

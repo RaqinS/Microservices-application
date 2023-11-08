@@ -2,7 +2,7 @@ import mysql.connector
 
 # Establish a connection to the MySQL database
 db_conn = mysql.connector.connect(
-    host="ec2-3-133-144-150.us-east-2.compute.amazonaws.com",
+    host="ec2-18-219-137-169.us-east-2.compute.amazonaws.com",
     user="user",
     password="password",
     database="events"
@@ -40,7 +40,7 @@ CREATE TABLE OrderETA (
     OrderType VARCHAR(50) NOT NULL,
     Distance INT NOT NULL,
     date_created VARCHAR(100) NOT NULL,
-    timestamp VARCHAR(100) NOT NULL,
+    TimeStamp VARCHAR(100) NOT NULL,
     trace_id VARCHAR(250) NOT NULL,
     CONSTRAINT Order_status_pk PRIMARY KEY(id)              
 )

@@ -15,6 +15,9 @@ import yaml
 import datetime
 import json
 import requests
+from pykafka import KafkaClient
+from pykafka.common import OffsetType
+from threading import Thread
 
 # Load configuration from app_conf.yml
 with open('storage/app_conf.yml', 'r') as f:
@@ -36,57 +39,7 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 logger.info("Connecting to DB. Hostname: {}:{}, Port: {}".format(app_config['datastore']['hostname'], app_config['datastore']['port'], app_config['datastore']['db']))
 
-def report_order_status(body):
-    trace_id = uuid.uuid4()
-    session = DB_SESSION()
 
-    orders = Order_status(
-        OrderID=body['OrderID'],
-        CustomerAdress=body['CustomerAdress'],
-        timestamp=body['timestamp'],
-        RestaurantID=body['RestaurantID'],
-        OrderType=body['OrderType'],
-        Customer_PhoneNumber=body['Customer_PhoneNumber'],
-        Tip=body['Tip'],
-        trace_id=body['trace_id']
-    )
-    session.add(orders)
-
-    session.commit()
-    session.close()
-
-    logger.debug(f"Received event report_order_status request with a trace id of {trace_id}")
-    
-
-    return NoContent, 201
-
-def reportETA(body):
-    trace_id = uuid.uuid4()
-    session = DB_SESSION()
-
-    ETA = OrderETA(
-        OrderID=body['OrderID'],
-        CustomerLatitude=body['CustomerLatitude'],
-        CustomerLongitude=body['CustomerLongitude'],
-        DriverLatitude=body['DriverLatitude'],
-        DriverLongitude=body['DriverLongitude'],
-        RestaurantLatitude=body['RestaurantLatitude'],
-        RestaurantLongitude=body['RestaurantLongitude'],
-        Distance=body['Distance'],
-        OrderType=body['OrderType'],
-        timestamp=body['timestamp'],
-        trace_id=body['trace_id']
-    )
-    session.add(ETA)
-
-    session.commit()
-
-
-    session.close()
-
-    logger.debug(f"Received event report_order_status request with a trace id of {trace_id}")
-
-    return NoContent, 201
 
 def get_order_status(timestamp):
     session = DB_SESSION()
@@ -127,12 +80,72 @@ def get_order_ETA(timestamp):
 
     return results_list, 200
 
+def process_messages():
+    session = DB_SESSION()
+    hostname = "%s:%d" % (app_config["events"]["hostname"],
+                          app_config["events"]["port"])
+    client = KafkaClient(hosts=hostname)
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
+    
+    consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                                         reset_offset_on_start=False,
+                                         auto_offset_reset=OffsetType.LATEST)
+    
+    
+    for msg in consumer:
+        msg_str = msg.value.decode('utf-8')
+        msg = json.loads(msg_str)
+        logger.info("Message: %s" % msg)
+        payload = msg["payload"]
+        
+        if msg["type"] == "order_status":
+            # Create an instance of the Order_status model
+            order_status = Order_status(
+                OrderID=payload['OrderID'],
+                CustomerAdress=payload['CustomerAdress'],
+                timestamp=payload['timestamp'],
+                OrderType=payload['OrderType'],
+                RestaurantID=payload['RestaurantID'],
+                Customer_PhoneNumber=payload['Customer_PhoneNumber'],
+                Tip=payload.get('Tip'),  # Tip is nullable
+                trace_id=payload['trace_id']
+            )
+            session.add(order_status)
+            logger.info("Stored order status with trace id: %s", payload['trace_id'])
+
+        # Assuming you have a similar structure for OrderETA
+        elif msg["type"] == "ETA":
+            order_eta = OrderETA(
+                OrderID=payload['OrderID'],
+                CustomerLatitude=payload['CustomerLatitude'],
+                CustomerLongitude=payload['CustomerLongitude'],
+                DriverLatitude=payload['DriverLatitude'],
+                DriverLongitude=payload['DriverLongitude'],
+                RestaurantLatitude=payload['RestaurantLatitude'],
+                RestaurantLongitude=payload['RestaurantLongitude'],
+                OrderType=payload['OrderType'],
+                Distance=payload['Distance'],
+                TimeStamp=payload['TimeStamp'],
+                trace_id=payload['trace_id']
+)
+    session.add(order_eta)
+    logger.info("Stored ETA with trace id: %s", payload['trace_id'])
+
+    session.commit()
+    session.close()
+    consumer.commit_offsets()
+            
+    
+
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
+    t1 = Thread(target=process_messages)
+    t1.setDaemon(True)
+    t1.start()
     app.run(port=8090)
 
 

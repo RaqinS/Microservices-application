@@ -55,7 +55,7 @@ components:
       required:
         - OrderID
         - CustomerAdress
-        - TimeStamp
+        - timestamp
         - OrderType
         - RestaurantID
         - Tip
@@ -68,7 +68,7 @@ components:
         CustomerAdress:
           type: string
           example: '123 elm st'
-        TimeStamp:
+        timestamp:
           type: string
           format: date-time
           example: '2017-07-21T17:32:28Z'
@@ -95,7 +95,7 @@ components:
         - DriverLongitude
         - OrderType
         - Distance
-        - TimeStamp
+        - timestamp
       properties:
         OrderID:
           type: number
@@ -124,7 +124,7 @@ components:
         Distance:
           type: number
           example: 5.7
-        TimeStamp:
+        timestamp:
           type: string
           format: date-time
           example: '2017-07-21T17:32:28Z'
