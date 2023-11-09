@@ -152,46 +152,22 @@ def process_messages():
         msg = json.loads(msg_str)
         logger.info("Message: %s" % msg)
         payload = msg["payload"]
-
-        session = DB_SESSION()
         
         if msg["type"] == "order_status":
             # Create an instance of the Order_status model
-            order_status = Order_status(
-                OrderID=payload['OrderID'],
-                CustomerAdress=payload['CustomerAdress'],
-                timestamp=payload['timestamp'],
-                OrderType=payload['OrderType'],
-                RestaurantID=payload['RestaurantID'],
-                Customer_PhoneNumber=payload['Customer_PhoneNumber'],
-                Tip=payload.get('Tip'),  # Tip is nullable
-                trace_id=payload['trace_id']
-            )
-            session.add(order_status)
-            logger.info("Stored order status with trace id: %s", payload['trace_id'])
+         
+            report_order_status(payload)
+           
 
         # Assuming you have a similar structure for OrderETA
         elif msg["type"] == "ETA":
-            order_eta = OrderETA(
-                OrderID=payload['OrderID'],
-                CustomerLatitude=payload['CustomerLatitude'],
-                CustomerLongitude=payload['CustomerLongitude'],
-                DriverLatitude=payload['DriverLatitude'],
-                DriverLongitude=payload['DriverLongitude'],
-                RestaurantLatitude=payload['RestaurantLatitude'],
-                RestaurantLongitude=payload['RestaurantLongitude'],
-                OrderType=payload['OrderType'],
-                Distance=payload['Distance'],
-                timestamp=payload['timestamp'],
-                trace_id=payload['trace_id']
-)
-    session.add(order_eta)
-    logger.info("Stored ETA with trace id: %s", payload['trace_id'])
-    logger.debug("Stored ETA request with a trace id of %s", payload['trace_id'])
+            
 
-    session.commit()
-    session.close()
-    consumer.commit_offsets()
+            report_order_eta(payload)
+
+
+
+        consumer.commit_offsets()
             
     
 

@@ -8,3 +8,22 @@
 2023-11-09 01:38:56,430 - basicLogger - ERROR - No more messages found
 2023-11-09 01:38:56,431 - basicLogger - ERROR - Could not find ETA at index 100
 2023-11-09 01:39:07,365 - basicLogger - INFO - Retrieving order_status at index 12
+2023-11-09 03:32:32,194 - basicLogger - INFO - Retrieving ETA at index 50
+2023-11-09 03:32:33,374 - basicLogger - ERROR - No more messages found
+2023-11-09 03:32:33,375 - basicLogger - ERROR - Could not find ETA at index 50
+2023-11-09 03:32:39,408 - basicLogger - INFO - Retrieving ETA at index 23
+2023-11-09 03:32:40,590 - basicLogger - ERROR - No more messages found
+2023-11-09 03:32:40,590 - basicLogger - ERROR - Could not find ETA at index 23
+2023-11-09 03:32:48,103 - basicLogger - INFO - Retrieving ETA at index 7
+2023-11-09 03:32:57,369 - basicLogger - INFO - Retrieving ETA at index 31
+2023-11-09 03:32:58,557 - basicLogger - ERROR - No more messages found
+2023-11-09 03:32:58,557 - basicLogger - ERROR - Could not find ETA at index 31
+2023-11-09 03:33:01,442 - basicLogger - INFO - Retrieving ETA at index 13
+2023-11-09 03:33:06,807 - basicLogger - INFO - Retrieving ETA at index 14
+2023-11-09 03:33:12,950 - basicLogger - INFO - Retrieving ETA at index 20
+2023-11-09 03:33:14,115 - basicLogger - ERROR - No more messages found
+2023-11-09 03:33:14,116 - basicLogger - ERROR - Could not find ETA at index 20
+2023-11-09 03:33:18,754 - basicLogger - INFO - Retrieving ETA at index 19
+2023-11-09 03:33:31,497 - basicLogger - INFO - Retrieving order_status at index 19
+2023-11-09 03:33:37,207 - basicLogger - INFO - Retrieving order_status at index 23
+2023-11-09 03:33:43,114 - basicLogger - INFO - Retrieving order_status at index 34
