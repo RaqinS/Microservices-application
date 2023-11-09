@@ -1,0 +1,10 @@
+2023-11-09 01:36:24,291 - basicLogger - INFO - Retrieving ETA at index 0
+2023-11-09 01:36:29,529 - basicLogger - INFO - Retrieving ETA at index 23
+2023-11-09 01:36:30,679 - basicLogger - ERROR - No more messages found
+2023-11-09 01:36:30,681 - basicLogger - ERROR - Could not find ETA at index 23
+2023-11-09 01:36:37,213 - basicLogger - INFO - Retrieving ETA at index 3
+2023-11-09 01:38:37,096 - basicLogger - INFO - Retrieving ETA at index 10
+2023-11-09 01:38:55,275 - basicLogger - INFO - Retrieving ETA at index 100
+2023-11-09 01:38:56,430 - basicLogger - ERROR - No more messages found
+2023-11-09 01:38:56,431 - basicLogger - ERROR - Could not find ETA at index 100
+2023-11-09 01:39:07,365 - basicLogger - INFO - Retrieving order_status at index 12
