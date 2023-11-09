@@ -21,14 +21,14 @@ paths:
       summary: Retrieves a customer's order based on timestamp
       operationId: app.get_order_status
       parameters:
-        - name: timestamp
+        - name: index
           in: query
-          description: Retrieve orders added after this timestamp
+          description: index
           required: true
+          
           schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
+            type: integer
+            example: 100
       responses:
         '200':
           description: Successfully returned a list of orders
@@ -46,14 +46,14 @@ paths:
       summary: Retrieves the ETA details based on timestamp
       operationId: app.get_order_ETA
       parameters:
-        - name: timestamp
+        - name: index
           in: query
-          description: Retrieve locations added after this timestamp
+          description: index
           required: true
+          
           schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
+            type: integer
+            example: 100
       responses:
         '200':
           description: Successfully returned a list of ETAs
