@@ -40,7 +40,7 @@ CREATE TABLE OrderETA (
     OrderType VARCHAR(50) NOT NULL,
     Distance INT NOT NULL,
     date_created VARCHAR(100) NOT NULL,
-    TimeStamp VARCHAR(100) NOT NULL,
+    timestamp VARCHAR(100) NOT NULL,
     trace_id VARCHAR(250) NOT NULL,
     CONSTRAINT Order_status_pk PRIMARY KEY(id)              
 )

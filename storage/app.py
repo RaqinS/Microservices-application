@@ -39,6 +39,62 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 logger.info("Connecting to DB. Hostname: {}:{}, Port: {}".format(app_config['datastore']['hostname'], app_config['datastore']['port'], app_config['datastore']['db']))
 
+def report_order_status(body):
+    """ Receives an order status update """
+
+    session = DB_SESSION()
+
+    order_status = Order_status(
+        OrderID=body['OrderID'],
+        CustomerAdress=body['CustomerAdress'],
+        timestamp=body['timestamp'],
+        OrderType=body['OrderType'],
+        RestaurantID=body['RestaurantID'],
+        Customer_PhoneNumber=body['Customer_PhoneNumber'],
+        Tip=body['Tip'],
+        trace_id=body['trace_id']
+    )
+
+    session.add(order_status)
+
+    session.commit()
+    session.close()
+
+    logger.debug("Stored Order Status with OrderID %s and trace id %s" %
+                 (body["OrderID"], body["trace_id"]))
+
+    return NoContent, 201
+
+
+def report_order_eta(body):
+    """ Receives an order ETA update """
+
+    session = DB_SESSION()
+
+    order_eta = OrderETA(
+        OrderID=body['OrderID'],
+        CustomerLatitude=body['CustomerLatitude'],
+        CustomerLongitude=body['CustomerLongitude'],
+        RestaurantLatitude=body['RestaurantLatitude'],
+        RestaurantLongitude=body['RestaurantLongitude'],
+        DriverLatitude=body['DriverLatitude'],
+        DriverLongitude=body['DriverLongitude'],
+        OrderType=body['OrderType'],
+        Distance=body['Distance'],
+        TimeStamp=body['timestamp'],
+        trace_id=body['trace_id']
+    )
+
+    session.add(order_eta)
+
+    session.commit()
+    session.close()
+
+    logger.debug("Stored Order ETA for OrderID %s with trace id %s" %
+                 (body["OrderID"], body["trace_id"]))
+
+    return NoContent, 201
+
 
 
 def get_order_status(timestamp):
@@ -81,7 +137,6 @@ def get_order_ETA(timestamp):
     return results_list, 200
 
 def process_messages():
-    session = DB_SESSION()
     hostname = "%s:%d" % (app_config["events"]["hostname"],
                           app_config["events"]["port"])
     client = KafkaClient(hosts=hostname)
@@ -97,6 +152,8 @@ def process_messages():
         msg = json.loads(msg_str)
         logger.info("Message: %s" % msg)
         payload = msg["payload"]
+
+        session = DB_SESSION()
         
         if msg["type"] == "order_status":
             # Create an instance of the Order_status model
@@ -125,11 +182,12 @@ def process_messages():
                 RestaurantLongitude=payload['RestaurantLongitude'],
                 OrderType=payload['OrderType'],
                 Distance=payload['Distance'],
-                TimeStamp=payload['TimeStamp'],
+                timestamp=payload['timestamp'],
                 trace_id=payload['trace_id']
 )
     session.add(order_eta)
     logger.info("Stored ETA with trace id: %s", payload['trace_id'])
+    logger.debug("Stored ETA request with a trace id of %s", payload['trace_id'])
 
     session.commit()
     session.close()

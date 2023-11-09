@@ -32,7 +32,8 @@ c.execute('''
     RestaurantLongitude INTEGER NOT NULL,
     OrderType VARCHAR(50) NOT NULL,
     Distance INTEGER NOT NULL,
-    date_created VARCHAR(100) NOT NULL)
+    date_created VARCHAR(100) NOT NULL,
+    timestamp VARCHAR(100) NOT NULL)      
 ''')
 
 conn.commit()

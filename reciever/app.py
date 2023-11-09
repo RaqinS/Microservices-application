@@ -40,7 +40,6 @@ def report_order_status(body):
     producer.produce(msg_str.encode('utf-8'))
 
     logger.info(f"Received event report_order_status request with a trace id of {trace_id}")
-    logger.info(f"Produced event report_order_status message with trace id {trace_id}")
     return NoContent, 201
 
 def reportETA(body):
@@ -61,7 +60,6 @@ def reportETA(body):
     producer.produce(msg_str.encode('utf-8'))
 
     logger.info(f"Received event reportETA request with a trace id of {trace_id}")
-    logger.info(f"Produced event reportETA message with trace id {trace_id}")
     return NoContent, 201
 
 app = connexion.FlaskApp(__name__, specification_dir='')
