@@ -1,4 +1,0 @@
-connexion
-swagger-ui-bundle
-requests
-APscheduler

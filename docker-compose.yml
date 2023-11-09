@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+
+  mysql_db: 
+    image: "mysql:latest"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - db-data:/foo
+      - ./scripts:/docker-entrypoint-initdb.d 
+    ports:
+      - 3306
+    networks:
+      - project_network
+
+  storage:
+    build: ./Storage
+    ports:
+      - '8090:8090'
+    networks:
+      - project_network
+
+  reciever:
+    build: ./Receiver
+    ports:
+      - "8080:8080"
+    networks:
+      - project_network
+
+  processing:
+    build: ./Processing 
+    ports:
+      - '8100:8100'
+    networks:
+      - project_network
+
+  audit:
+    build: ./Audit 
+    ports:
+      - '8110:8110'
+    networks:
+      - project_network
+
+volumes:
+  db-data:
+
+networks:
+  project_network:
