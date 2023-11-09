@@ -13,10 +13,10 @@ import yaml
 import json
 from pykafka import KafkaClient
 
-with open('reciever/app_conf.yml', 'r') as f:
+with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
-with open('reciever/log_conf.yml', 'r') as f:
+with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
