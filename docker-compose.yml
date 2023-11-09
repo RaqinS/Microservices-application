@@ -22,7 +22,7 @@ services:
       - project_network
 
   reciever:
-    build: ./receiver
+    build: ./reciever
     ports:
       - "8080:8080"
     networks:
