@@ -1,34 +1,37 @@
 openapi: 3.0.0
 info:
   title: Microservices Application API
+  contact:
+    email: rshikder@my.bcit.ca
   version: 1.0.0
   description: API for the Microservices Application
-servers:
-  - url: http://localhost:8090
-    description: Development server
+
 
 paths:
   /order/status:
     get:
+      tags:
+        - orders
       summary: Gets order status from history
-      operationId: get_order_status
+      operationId: app.get_order_status
       parameters:
-        - name: timestamp
+        - name: index
           in: query
-          description: Timestamp to filter order status events
+          description: index
           required: true
+          
           schema:
-            type: string
-            format: date-time
+            type: integer
+            example: 100
       responses:
         '200':
           description: Successfully returned order status events
           content:
             application/json:
               schema:
-                type: array
+                type: object
                 items:
-                  $ref: '#/components/schemas/OrderStatusEvent'
+                  $ref: '#/components/schemas/OrderStatus'
         '400':
           description: Invalid request
           content:
@@ -43,25 +46,28 @@ paths:
 
   /order/ETA:
     get:
+      tags:
+        - orders
       summary: Gets order ETA from history
-      operationId: get_order_ETA
+      operationId: app.get_order_ETA
       parameters:
-        - name: timestamp
+        - name: index
           in: query
-          description: Timestamp to filter order ETA events
+          description: index
           required: true
+          
           schema:
-            type: string
-            format: date-time
+            type: integer
+            example: 100
       responses:
         '200':
           description: Successfully returned order ETA events
           content:
             application/json:
               schema:
-                type: array
+                type: object
                 items:
-                  $ref: '#/components/schemas/OrderETAEvent'
+                  $ref: '#/components/schemas/OrderETA'
         '400':
           description: Invalid request
           content:
@@ -76,100 +82,89 @@ paths:
 
 components:
   schemas:
-    OrderStatusEvent:
-      type: object
+    OrderStatus:
       required:
         - OrderID
         - CustomerAdress
         - timestamp
-        - RestaurantID
         - OrderType
-        - Customer_PhoneNumber
+        - RestaurantID
         - Tip
+        - Customer_PhoneNumber
         - trace_id
       properties:
         OrderID:
           type: string
-          example: "123456"
+          example: '7834fhasd7fadsbi'
         CustomerAdress:
           type: string
-          example: "123 Main St"
+          example: '123 elm st'
         timestamp:
           type: string
           format: date-time
-          example: "2023-11-06T09:12:33.001Z"
-        RestaurantID:
-          type: string
-          example: "R12345"
+          example: 2016-08-29T09:12:33.001Z
         OrderType:
           type: string
-          example: "Delivery"
-        Customer_PhoneNumber:
+          example: 'Delivery'
+        RestaurantID:
           type: string
-          example: "+1234567890"
+          example: 'cvasd8-d8caj-d87r'
         Tip:
-          type: number
-          format: float
-          example: 5.00
+          type: integer
+          example: 5
+        Customer_PhoneNumber:
+          type: integer
+          example: 7784235023
         trace_id:
           type: string
           format: uuid
-          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
-
-    OrderETAEvent:
-      type: object
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+    OrderETA:
       required:
         - OrderID
         - CustomerLatitude
         - CustomerLongitude
-        - DriverLatitude
-        - DriverLongitude
         - RestaurantLatitude
         - RestaurantLongitude
-        - Distance
+        - DriverLatitude
+        - DriverLongitude
         - OrderType
+        - Distance
         - timestamp
         - trace_id
       properties:
         OrderID:
-          type: string
-          example: "123456"
+          type: integer
+          example: 732949
         CustomerLatitude:
-          type: number
-          format: double
-          example: 40.712776
+          type: integer
+          example: 48
         CustomerLongitude:
-          type: number
-          format: double
-          example: -74.005974
-        DriverLatitude:
-          type: number
-          format: double
-          example: 40.712776
-        DriverLongitude:
-          type: number
-          format: double
-          example: -74.005974
+          type: integer
+          example: -123
         RestaurantLatitude:
-          type: number
-          format: double
-          example: 40.712776
+          type: integer
+          example: 49
         RestaurantLongitude:
-          type: number
-          format: double
-          example: -74.005974
-        Distance:
-          type: number
-          format: double
-          example: 5.5
+          type: integer
+          example: -123
+        DriverLatitude:
+          type: integer
+          example: 34
+        DriverLongitude:
+          type: integer
+          example: -109
         OrderType:
           type: string
-          example: "Delivery"
+          example: 'Delivery'
+        Distance:
+          type: integer
+          example: 6
         timestamp:
           type: string
           format: date-time
-          example: "2023-11-06T09:12:33.001Z"
+          example: 2016-08-29T09:12:33.001Z
         trace_id:
           type: string
           format: uuid
-          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+          example: d290f1ee-6c54-4b01-90y6-d701748f0851

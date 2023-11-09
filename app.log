@@ -3813,3 +3813,31 @@
 2023-11-07 23:33:08,547 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
 2023-11-07 23:33:08,581 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
 2023-11-07 23:33:09,362 - basicLogger - INFO - Message: {'type': 'ETA', 'datetime': '2023-11-07T20:01:21', 'payload': {'CustomerLatitude': 48.12345, 'CustomerLongitude': -123.6789, 'Distance': 5.7, 'DriverLatitude': 34.56789, 'DriverLongitude': -109.12345, 'OrderID': 732949, 'OrderType': 'Delivery', 'RestaurantLatitude': 49.54321, 'RestaurantLongitude': -122.98765, 'TimeStamp': '2017-07-21T17:32:28Z', 'trace_id': 'e3b356cb-2ea1-4271-9756-a8b37d4adc9d'}}
+2023-11-08 19:34:50,837 - basicLogger - INFO - Retrieving stock at index 1
+2023-11-08 19:34:51,924 - basicLogger - ERROR - No more messages found
+2023-11-08 19:34:51,925 - basicLogger - ERROR - Could not find stock at index 1
+2023-11-08 19:35:06,826 - basicLogger - INFO - Retrieving stock at index 0
+2023-11-08 19:35:07,922 - basicLogger - ERROR - No more messages found
+2023-11-08 19:35:07,922 - basicLogger - ERROR - Could not find stock at index 0
+2023-11-08 19:35:28,677 - basicLogger - INFO - Retrieving order at index 1
+2023-11-08 19:35:29,759 - basicLogger - ERROR - No more messages found
+2023-11-08 19:35:29,759 - basicLogger - ERROR - Could not find order at index 1
+2023-11-08 19:35:36,213 - basicLogger - INFO - Retrieving order at index 0
+2023-11-08 19:35:37,297 - basicLogger - ERROR - No more messages found
+2023-11-08 19:35:37,297 - basicLogger - ERROR - Could not find order at index 0
+2023-11-08 19:40:07,557 - basicLogger - INFO - Retrieving stock at index 1
+2023-11-08 19:40:08,631 - basicLogger - ERROR - No more messages found
+2023-11-08 19:40:08,632 - basicLogger - ERROR - Could not find stock at index 1
+2023-11-08 19:42:04,632 - basicLogger - INFO - Retrieving stock at index 1
+2023-11-08 19:42:05,719 - basicLogger - ERROR - No more messages found
+2023-11-08 19:42:05,720 - basicLogger - ERROR - Could not find stock at index 1
+2023-11-08 19:49:07,823 - basicLogger - INFO - Retrieving ETA at index 0
+2023-11-08 19:49:55,557 - basicLogger - INFO - Retrieving ETA at index 1
+2023-11-08 19:50:00,758 - basicLogger - INFO - Retrieving ETA at index 2
+2023-11-08 19:52:00,213 - basicLogger - INFO - Retrieving ETA at index 0
+2023-11-08 19:54:11,689 - basicLogger - INFO - Retrieving ETA at index 0
+2023-11-08 19:59:16,528 - basicLogger - INFO - Retrieving ETA at index 0
+2023-11-08 19:59:26,320 - basicLogger - INFO - Retrieving ETA at index 1
+2023-11-08 19:59:30,829 - basicLogger - INFO - Retrieving ETA at index 9
+2023-11-08 19:59:31,914 - basicLogger - ERROR - No more messages found
+2023-11-08 19:59:31,914 - basicLogger - ERROR - Could not find ETA at index 9
