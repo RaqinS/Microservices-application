@@ -6,7 +6,7 @@ import json
 import yaml
 
 # load the app config file
-with open('audit/app_conf.yml', 'r') as f:
+with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
     
 # Access specific configuration settings
@@ -17,7 +17,7 @@ db_port = app_config['datastore']['port']
 db_name = app_config['datastore']['db']
 
 # load the log config file
-with open('audit/log_conf.yml', 'r') as f:
+with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
     
