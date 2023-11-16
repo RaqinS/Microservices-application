@@ -18,6 +18,7 @@ import requests
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
+from flask_cors import CORS, cross_origin
 
 # Load configuration from app_conf.yml
 with open('app_conf.yml', 'r') as f:
@@ -175,6 +176,8 @@ def process_messages():
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 if __name__ == "__main__":
     t1 = Thread(target=process_messages)
