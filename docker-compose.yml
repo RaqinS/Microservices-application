@@ -38,14 +38,14 @@ services:
     volumes:
       - my-db:/var/lib/mysql
   receiver:
-    image: receiver
+    build: ./receiver
     ports:
       - "8080:8080"
     depends_on:
       - kafka
 
   storage:
-    image: storage
+    build: ./storage
     ports:
       - "8090:8090"
     depends_on:
@@ -53,20 +53,20 @@ services:
       - db
 
   processing:
-    image: processing
+    build: ./processing
     network_mode: host
     depends_on:
       - storage
 
   audit:
-    image: audit
+    build: ./audit
     ports:
       - "8110:8110"
     depends_on:
       - kafka
 
   dashboard:
-    image: dashboard
+    build: ./dashboard
     ports:
       - "3000:3000"
     depends_on:
