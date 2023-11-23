@@ -100,7 +100,7 @@ def report_order_eta(body):
 
 def get_order_status(timestamp):
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S.%f")
     
     readings = session.query(Order_status).filter(Order_status.date_created <=
                                                    timestamp_datetime)
@@ -120,7 +120,7 @@ def get_order_status(timestamp):
 def get_order_ETA(timestamp):
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S.%f")
 
     readings = session.query(OrderETA).filter(OrderETA.date_created <=
                                                    timestamp_datetime)

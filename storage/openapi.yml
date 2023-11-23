@@ -87,7 +87,7 @@ components:
         timestamp:
           type: string
           format: date-time
-          example: 2016-08-29T09:12:33.001Z
+          example: 2019-11-09 17:01:32.988978
         OrderType:
           type: string
           example: 'Delivery'
@@ -148,7 +148,7 @@ components:
         timestamp:
           type: string
           format: date-time
-          example: 2016-08-29T09:12:33.001Z
+          example: 2019-11-09 17:01:32.988978
         trace_id:
           type: string
           format: uuid

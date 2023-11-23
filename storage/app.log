@@ -703,3 +703,22 @@
 2023-11-09 03:31:15,591 - basicLogger - DEBUG - Stored Order Status with OrderID 7834fhasd7fadsbi and trace id 95f192db-6ceb-43da-a69d-6fe98002f86c
 2023-11-09 03:31:15,670 - basicLogger - INFO - Message: {'type': 'order_status', 'datetime': '2023-11-09T11:18:24', 'payload': {'CustomerAdress': '123 elm st', 'Customer_PhoneNumber': 7784235023, 'OrderID': '7834fhasd7fadsbi', 'OrderType': 'Delivery', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Tip': 5, 'timestamp': '2017-07-21T17:32:28Z', 'trace_id': 'ade9069a-8df1-45e5-af3e-7db1f811d04b'}}
 2023-11-09 03:31:15,933 - basicLogger - DEBUG - Stored Order Status with OrderID 7834fhasd7fadsbi and trace id ade9069a-8df1-45e5-af3e-7db1f811d04b
+2023-11-22 18:13:29,140 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 18:13:29,174 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 18:14:40,415 - basicLogger - INFO - Message: {'type': 'order_status', 'datetime': '2023-11-22T18:14:40', 'payload': {'CustomerAdress': '123 elm st', 'Customer_PhoneNumber': 7784235023, 'OrderID': '7834fhasd7fadsbi', 'OrderType': 'Delivery', 'RestaurantID': 'cvasd8-d8caj-d87r', 'Tip': 5, 'timestamp': '2017-07-21T17:32:28Z', 'trace_id': '05c32bc7-6d2d-4799-81d3-34217e19226b'}}
+2023-11-22 18:14:41,872 - basicLogger - DEBUG - Stored Order Status with OrderID 7834fhasd7fadsbi and trace id 05c32bc7-6d2d-4799-81d3-34217e19226b
+2023-11-22 18:49:00,830 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 18:49:00,861 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 18:49:57,135 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 18:49:57,166 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 18:50:06,212 - basicLogger - INFO - Query for orders after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-22 18:50:25,721 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-22 18:51:00,652 - basicLogger - INFO - Query for ETAs after 2016-08-29T09:12:33.001000+00:00 returns 0 results
+2023-11-22 19:00:02,204 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:00:02,235 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:00:24,340 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:00:24,369 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:00:56,038 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:00:56,062 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:18:47,537 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
+2023-11-22 19:18:47,568 - basicLogger - INFO - Connecting to DB. Hostname: ec2-18-219-137-169.us-east-2.compute.amazonaws.com:3306, Port: events
